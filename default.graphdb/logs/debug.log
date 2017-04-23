@@ -9373,378 +9373,1156 @@ Storage files: (filename : modification date - size)
 2017-04-22 20:53:33.678+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
 2017-04-22 20:53:33.728+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STOPPING diagnostics START ---
 2017-04-22 20:53:33.728+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STOPPING diagnostics END ---
-2017-04-23 09:37:31.786+0000 WARN  [o.n.i.p.PageCache] The dbms.memory.pagecache.size setting has not been configured. It is recommended that this setting is always explicitly configured, to ensure the system has a balanced configuration. Until then, a computed heuristic value of 3340500992 bytes will be used instead. 
-2017-04-23 09:37:31.875+0000 INFO  [o.n.k.i.f.CommunityEditionModule] No locking implementation specified, defaulting to 'community'
-2017-04-23 09:37:32.066+0000 INFO  [o.n.k.AvailabilityGuard] Requirement makes database unavailable: Database available
-2017-04-23 09:37:32.317+0000 INFO  [o.n.k.i.DiagnosticsManager] --- INITIALIZED diagnostics START ---
-2017-04-23 09:37:32.317+0000 INFO  [o.n.k.i.DiagnosticsManager] Neo4j Kernel properties:
-2017-04-23 09:37:32.317+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.connector.http.enabled=true
-2017-04-23 09:37:32.318+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.security.auth_enabled=true
-2017-04-23 09:37:32.318+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.logs.http.enabled=false
-2017-04-23 09:37:32.318+0000 INFO  [o.n.k.i.DiagnosticsManager] unsupported.dbms.directories.neo4j_home=/Users/AndrewIrwin/GoogleDrive/Gmit/ThirdYear/GraphTheory/Graph-Theory/default.graphdb
-2017-04-23 09:37:32.318+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.directories.import=import
-2017-04-23 09:37:32.318+0000 INFO  [o.n.k.i.DiagnosticsManager] unsupported.dbms.edition=community
-2017-04-23 09:37:32.318+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.connector.bolt.enabled=true
-2017-04-23 09:37:32.318+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.connector.https.enabled=true
-2017-04-23 09:37:32.319+0000 INFO  [o.n.k.i.DiagnosticsManager] unsupported.dbms.directories.database=/Users/AndrewIrwin/GoogleDrive/Gmit/ThirdYear/GraphTheory/Graph-Theory/default.graphdb
-2017-04-23 09:37:32.319+0000 INFO  [o.n.k.i.DiagnosticsManager] Diagnostics providers:
-2017-04-23 09:37:32.319+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.kernel.configuration.Config
-2017-04-23 09:37:32.319+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.kernel.info.DiagnosticsManager
-2017-04-23 09:37:32.319+0000 INFO  [o.n.k.i.DiagnosticsManager] SYSTEM_MEMORY
-2017-04-23 09:37:32.319+0000 INFO  [o.n.k.i.DiagnosticsManager] JAVA_MEMORY
-2017-04-23 09:37:32.319+0000 INFO  [o.n.k.i.DiagnosticsManager] OPERATING_SYSTEM
-2017-04-23 09:37:32.319+0000 INFO  [o.n.k.i.DiagnosticsManager] JAVA_VIRTUAL_MACHINE
-2017-04-23 09:37:32.319+0000 INFO  [o.n.k.i.DiagnosticsManager] CLASSPATH
-2017-04-23 09:37:32.319+0000 INFO  [o.n.k.i.DiagnosticsManager] LIBRARY_PATH
-2017-04-23 09:37:32.319+0000 INFO  [o.n.k.i.DiagnosticsManager] SYSTEM_PROPERTIES
-2017-04-23 09:37:32.320+0000 INFO  [o.n.k.i.DiagnosticsManager] NETWORK
-2017-04-23 09:37:32.320+0000 INFO  [o.n.k.i.DiagnosticsManager] System memory information:
-2017-04-23 09:37:32.322+0000 INFO  [o.n.k.i.DiagnosticsManager] Total Physical memory: 8.00 GB
-2017-04-23 09:37:32.323+0000 INFO  [o.n.k.i.DiagnosticsManager] Free Physical memory: 2.86 GB
-2017-04-23 09:37:32.323+0000 INFO  [o.n.k.i.DiagnosticsManager] Committed virtual memory: 7.54 GB
-2017-04-23 09:37:32.324+0000 INFO  [o.n.k.i.DiagnosticsManager] Total swap space: 0.00 B
-2017-04-23 09:37:32.325+0000 INFO  [o.n.k.i.DiagnosticsManager] Free swap space: 0.00 B
-2017-04-23 09:37:32.325+0000 INFO  [o.n.k.i.DiagnosticsManager] JVM memory information:
-2017-04-23 09:37:32.325+0000 INFO  [o.n.k.i.DiagnosticsManager] Free  memory: 103.40 MB
-2017-04-23 09:37:32.325+0000 INFO  [o.n.k.i.DiagnosticsManager] Total memory: 137.00 MB
-2017-04-23 09:37:32.325+0000 INFO  [o.n.k.i.DiagnosticsManager] Max   memory: 1.78 GB
-2017-04-23 09:37:32.330+0000 INFO  [o.n.k.i.DiagnosticsManager] Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
-2017-04-23 09:37:32.330+0000 INFO  [o.n.k.i.DiagnosticsManager] Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen]
-2017-04-23 09:37:32.332+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: Code Cache (Non-heap memory): committed=5.25 MB, used=5.21 MB, max=240.00 MB, threshold=0.00 B
-2017-04-23 09:37:32.332+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: Metaspace (Non-heap memory): committed=21.25 MB, used=20.39 MB, max=-1.00 B, threshold=0.00 B
-2017-04-23 09:37:32.332+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: Compressed Class Space (Non-heap memory): committed=3.00 MB, used=2.75 MB, max=1.00 GB, threshold=0.00 B
-2017-04-23 09:37:32.333+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: PS Eden Space (Heap memory): committed=32.50 MB, used=1.36 MB, max=672.50 MB, threshold=?
-2017-04-23 09:37:32.333+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: PS Survivor Space (Heap memory): committed=5.00 MB, used=0.00 B, max=5.00 MB, threshold=?
-2017-04-23 09:37:32.333+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: PS Old Gen (Heap memory): committed=99.50 MB, used=32.23 MB, max=1.33 GB, threshold=0.00 B
-2017-04-23 09:37:32.333+0000 INFO  [o.n.k.i.DiagnosticsManager] Operating system information:
-2017-04-23 09:37:32.335+0000 INFO  [o.n.k.i.DiagnosticsManager] Operating System: Mac OS X; version: 10.11.6; arch: x86_64; cpus: 4
-2017-04-23 09:37:32.336+0000 INFO  [o.n.k.i.DiagnosticsManager] Max number of file descriptors: 10240
-2017-04-23 09:37:32.336+0000 INFO  [o.n.k.i.DiagnosticsManager] Number of open file descriptors: 55
-2017-04-23 09:37:32.517+0000 INFO  [o.n.k.i.DiagnosticsManager] Process id: 693@Andrews-MacBook-Air.local
-2017-04-23 09:37:32.517+0000 INFO  [o.n.k.i.DiagnosticsManager] Byte order: LITTLE_ENDIAN
-2017-04-23 09:37:32.518+0000 INFO  [o.n.k.i.DiagnosticsManager] Local timezone: Europe/Dublin
-2017-04-23 09:37:32.518+0000 INFO  [o.n.k.i.DiagnosticsManager] JVM information:
-2017-04-23 09:37:32.518+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Name: Java HotSpot(TM) 64-Bit Server VM
-2017-04-23 09:37:32.518+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Vendor: Oracle Corporation
-2017-04-23 09:37:32.518+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Version: 25.60-b23
-2017-04-23 09:37:32.521+0000 INFO  [o.n.k.i.DiagnosticsManager] JIT compiler: HotSpot 64-Bit Tiered Compilers
-2017-04-23 09:37:32.522+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Arguments: [-Dfile.encoding=UTF-8, -Dinstall4j.launcherId=24, -Dinstall4j.swt=false, -Dexe4j.moduleName=/Applications/Neo4j Community Edition 3.1.1.app, -Di4j.ownBundlePath=/Applications/Neo4j Community Edition 3.1.1.app, -Di4j.jreBundle=/Applications/Neo4j Community Edition 3.1.1.app/Contents/Resources/jre.bundle]
-2017-04-23 09:37:32.522+0000 INFO  [o.n.k.i.DiagnosticsManager] Java classpath:
-2017-04-23 09:37:32.524+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 3.1.1.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/jsse.jar
-2017-04-23 09:37:32.524+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/System/Library/Java/Extensions/mlibwrapper_jai.jar
-2017-04-23 09:37:32.524+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 3.1.1.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/resources.jar
-2017-04-23 09:37:32.525+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 3.1.1.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/jfr.jar
-2017-04-23 09:37:32.525+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Applications/Neo4j%20Community%20Edition%203.1.1.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/ext/dnsns.jar
-2017-04-23 09:37:32.525+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/System/Library/Java/Extensions/libJ3DUtils.jnilib
-2017-04-23 09:37:32.525+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/System/Library/Java/Extensions/j3daudio.jar
-2017-04-23 09:37:32.525+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/System/Library/Java/Extensions/AppleScriptEngine.jar
-2017-04-23 09:37:32.525+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/System/Library/Java/Extensions/j3dutils.jar
-2017-04-23 09:37:32.525+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/System/Library/Java/Extensions/jai_codec.jar
-2017-04-23 09:37:32.525+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 3.1.1.app/Contents/Resources/jre.bundle/Contents/Home/jre/classes
-2017-04-23 09:37:32.525+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath] /Applications/Neo4j Community Edition 3.1.1.app/Contents/Resources/app/.install4j/i4jruntime.jar
-2017-04-23 09:37:32.525+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.0] file:/Applications/Neo4j%20Community%20Edition%203.1.1.app/Contents/Resources/app/.install4j/i4jruntime.jar
-2017-04-23 09:37:32.525+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/System/Library/Java/Extensions/vecmath.jar
-2017-04-23 09:37:32.525+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Applications/Neo4j%20Community%20Edition%203.1.1.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/ext/localedata.jar
-2017-04-23 09:37:32.525+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Applications/Neo4j%20Community%20Edition%203.1.1.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/ext/nashorn.jar
-2017-04-23 09:37:32.525+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath] /Applications/Neo4j Community Edition 3.1.1.app/Contents/Resources/app/bin/neo4j-desktop-3.1.1.jar
-2017-04-23 09:37:32.525+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/System/Library/Java/Extensions/libJ3D.jnilib
-2017-04-23 09:37:32.525+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/lib/java/libjdns_sd.jnilib
-2017-04-23 09:37:32.525+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Applications/Neo4j%20Community%20Edition%203.1.1.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/ext/sunjce_provider.jar
-2017-04-23 09:37:32.525+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/System/Library/Java/Extensions/libmlib_jai.jnilib
-2017-04-23 09:37:32.525+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 3.1.1.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/sunrsasign.jar
-2017-04-23 09:37:32.526+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Applications/Neo4j%20Community%20Edition%203.1.1.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/ext/zipfs.jar
-2017-04-23 09:37:32.526+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Applications/Neo4j%20Community%20Edition%203.1.1.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/ext/jfxrt.jar
-2017-04-23 09:37:32.526+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 3.1.1.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/jce.jar
-2017-04-23 09:37:32.526+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 3.1.1.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/charsets.jar
-2017-04-23 09:37:32.526+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.0] file:/Applications/Neo4j%20Community%20Edition%203.1.1.app/Contents/Resources/app/bin/neo4j-desktop-3.1.1.jar
-2017-04-23 09:37:32.526+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/System/Library/Java/Extensions/libJ3DAudio.jnilib
-2017-04-23 09:37:32.526+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Applications/Neo4j%20Community%20Edition%203.1.1.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/ext/sunpkcs11.jar
-2017-04-23 09:37:32.526+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/System/Library/Java/Extensions/libAppleScriptEngine.jnilib
-2017-04-23 09:37:32.526+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Applications/Neo4j%20Community%20Edition%203.1.1.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/ext/sunec.jar
-2017-04-23 09:37:32.526+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Applications/Neo4j%20Community%20Edition%203.1.1.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/ext/cldrdata.jar
-2017-04-23 09:37:32.526+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Applications/Neo4j%20Community%20Edition%203.1.1.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/ext/jaccess.jar
-2017-04-23 09:37:32.526+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/System/Library/Java/Extensions/dns_sd.jar
-2017-04-23 09:37:32.526+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/System/Library/Java/Extensions/j3dcore.jar
-2017-04-23 09:37:32.526+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/System/Library/Java/Extensions/MRJToolkit.jar
-2017-04-23 09:37:32.526+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 3.1.1.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/rt.jar
-2017-04-23 09:37:32.526+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/System/Library/Java/Extensions/jai_core.jar
-2017-04-23 09:37:32.526+0000 INFO  [o.n.k.i.DiagnosticsManager] Library path:
-2017-04-23 09:37:32.526+0000 INFO  [o.n.k.i.DiagnosticsManager] /Users/AndrewIrwin/Library/Java/Extensions
-2017-04-23 09:37:32.527+0000 INFO  [o.n.k.i.DiagnosticsManager] /Library/Java/Extensions
-2017-04-23 09:37:32.527+0000 INFO  [o.n.k.i.DiagnosticsManager] /Network/Library/Java/Extensions
-2017-04-23 09:37:32.527+0000 INFO  [o.n.k.i.DiagnosticsManager] /System/Library/Java/Extensions
-2017-04-23 09:37:32.527+0000 INFO  [o.n.k.i.DiagnosticsManager] /usr/lib/java
-2017-04-23 09:37:32.527+0000 INFO  [o.n.k.i.DiagnosticsManager] /Applications/Neo4j Community Edition 3.1.1.app/Contents/Resources/app/bin
-2017-04-23 09:37:32.527+0000 INFO  [o.n.k.i.DiagnosticsManager] System.properties:
-2017-04-23 09:37:32.527+0000 INFO  [o.n.k.i.DiagnosticsManager] exe4j.moduleName = /Applications/Neo4j Community Edition 3.1.1.app
-2017-04-23 09:37:32.527+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.boot.library.path = /Applications/Neo4j Community Edition 3.1.1.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib
-2017-04-23 09:37:32.527+0000 INFO  [o.n.k.i.DiagnosticsManager] user.country.format = IE
-2017-04-23 09:37:32.527+0000 INFO  [o.n.k.i.DiagnosticsManager] i4j.jreBundle = /Applications/Neo4j Community Edition 3.1.1.app/Contents/Resources/jre.bundle
-2017-04-23 09:37:32.527+0000 INFO  [o.n.k.i.DiagnosticsManager] gopherProxySet = false
-2017-04-23 09:37:32.527+0000 INFO  [o.n.k.i.DiagnosticsManager] path.separator = :
-2017-04-23 09:37:32.527+0000 INFO  [o.n.k.i.DiagnosticsManager] file.encoding.pkg = sun.io
-2017-04-23 09:37:32.528+0000 INFO  [o.n.k.i.DiagnosticsManager] user.country = US
-2017-04-23 09:37:32.528+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.java.launcher = SUN_STANDARD
-2017-04-23 09:37:32.528+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.os.patch.level = unknown
-2017-04-23 09:37:32.528+0000 INFO  [o.n.k.i.DiagnosticsManager] install4j.exeDir = /Applications/
-2017-04-23 09:37:32.528+0000 INFO  [o.n.k.i.DiagnosticsManager] user.dir = /Applications/Neo4j Community Edition 3.1.1.app/Contents/Resources/app/bin
-2017-04-23 09:37:32.528+0000 INFO  [o.n.k.i.DiagnosticsManager] i4j.ownBundlePath = /Applications/Neo4j Community Edition 3.1.1.app
-2017-04-23 09:37:32.528+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.jnu.encoding = UTF-8
-2017-04-23 09:37:32.528+0000 INFO  [o.n.k.i.DiagnosticsManager] unsupported.dbms.udc.source = desktop
-2017-04-23 09:37:32.528+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.awt.enableExtraMouseButtons = true
-2017-04-23 09:37:32.528+0000 INFO  [o.n.k.i.DiagnosticsManager] install4j.launcherId = 24
-2017-04-23 09:37:32.528+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.management.compiler = HotSpot 64-Bit Tiered Compilers
-2017-04-23 09:37:32.528+0000 INFO  [o.n.k.i.DiagnosticsManager] install4j.swt = false
-2017-04-23 09:37:32.528+0000 INFO  [o.n.k.i.DiagnosticsManager] apple.awt.fileDialogForDirectories = false
-2017-04-23 09:37:32.528+0000 INFO  [o.n.k.i.DiagnosticsManager] user.home = /Users/AndrewIrwin
-2017-04-23 09:37:32.528+0000 INFO  [o.n.k.i.DiagnosticsManager] user.timezone = Europe/Dublin
-2017-04-23 09:37:32.528+0000 INFO  [o.n.k.i.DiagnosticsManager] file.encoding = UTF-8
-2017-04-23 09:37:32.528+0000 INFO  [o.n.k.i.DiagnosticsManager] user.name = AndrewIrwin
-2017-04-23 09:37:32.529+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.java.command = com.install4j.runtime.launcher.MacLauncher
-2017-04-23 09:37:32.529+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.arch.data.model = 64
-2017-04-23 09:37:32.529+0000 INFO  [o.n.k.i.DiagnosticsManager] user.language = en
-2017-04-23 09:37:32.529+0000 INFO  [o.n.k.i.DiagnosticsManager] awt.toolkit = sun.lwawt.macosx.LWCToolkit
-2017-04-23 09:37:32.529+0000 INFO  [o.n.k.i.DiagnosticsManager] install4j.appDir = /Applications/Neo4j Community Edition 3.1.1.app/Contents/Resources/app/
-2017-04-23 09:37:32.529+0000 INFO  [o.n.k.i.DiagnosticsManager] file.separator = /
-2017-04-23 09:37:32.529+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.font.fontmanager = sun.font.CFontManager
-2017-04-23 09:37:32.529+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.io.unicode.encoding = UnicodeBig
-2017-04-23 09:37:32.529+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.cpu.endian = little
-2017-04-23 09:37:32.529+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.cpu.isalist = 
-2017-04-23 09:37:32.529+0000 INFO  [o.n.k.i.DiagnosticsManager] Network information:
-2017-04-23 09:37:32.542+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface utun0:
-2017-04-23 09:37:32.543+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fd49:e3f9:af52:c22c:a85c:79a3:aaa9:fe1d
-2017-04-23 09:37:32.543+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:a85c:79a3:aaa9:fe1d%utun0
-2017-04-23 09:37:32.543+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface awdl0:
-2017-04-23 09:37:32.543+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:421:2cff:feb6:6cd7%awdl0
-2017-04-23 09:37:32.543+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface en0:
-2017-04-23 09:37:32.543+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:7ed1:c3ff:fee3:38d%en0
-2017-04-23 09:37:32.543+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 192.168.1.102
-2017-04-23 09:37:32.544+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface lo0:
-2017-04-23 09:37:32.544+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:0:0:0:1%lo0
-2017-04-23 09:37:32.544+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 0:0:0:0:0:0:0:1
-2017-04-23 09:37:32.544+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 127.0.0.1
-2017-04-23 09:37:32.544+0000 INFO  [o.n.k.i.DiagnosticsManager] --- INITIALIZED diagnostics END ---
-2017-04-23 09:37:32.947+0000 INFO  [o.n.b.v.r.WorkerFactory] Bolt Server extension loaded.
-2017-04-23 09:37:32.947+0000 INFO  [o.n.b.v.r.WorkerFactory] Bolt enabled on localhost:7687.
-2017-04-23 09:37:33.122+0000 INFO  [o.n.k.i.s.f.RecordFormatSelector] Selected RecordFormat:StandardV3_0[v0.A.7] record format from store /Users/AndrewIrwin/GoogleDrive/Gmit/ThirdYear/GraphTheory/Graph-Theory/default.graphdb
-2017-04-23 09:37:33.161+0000 INFO  [o.n.k.i.s.f.RecordFormatSelector] Selected RecordFormat:StandardV3_0[v0.A.7] record format from store /Users/AndrewIrwin/GoogleDrive/Gmit/ThirdYear/GraphTheory/Graph-Theory/default.graphdb
-2017-04-23 09:37:33.161+0000 INFO  [o.n.k.i.s.f.RecordFormatSelector] Format not configured. Selected format from the store: RecordFormat:StandardV3_0[v0.A.7]
-2017-04-23 09:37:33.864+0000 INFO  [o.n.k.i.DatabaseHealth] Database health set to OK
-2017-04-23 09:37:34.918+0000 INFO  [o.n.k.AvailabilityGuard] Fulfilling of requirement makes database available: Database available
-2017-04-23 09:37:34.919+0000 INFO  [o.n.k.i.f.GraphDatabaseFacadeFactory] Database is now ready
-2017-04-23 09:37:34.920+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:Versions START ---
-2017-04-23 09:37:34.920+0000 INFO  [o.n.k.i.DiagnosticsManager] Graph Database: community single StoreId{creationTime=1488359401861, randomId=7895785724685812387, storeVersion=15531981201765894, upgradeTime=1488359401861, upgradeId=1}
-2017-04-23 09:37:34.920+0000 INFO  [o.n.k.i.DiagnosticsManager] Kernel version: 3.1.1
-2017-04-23 09:37:34.920+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:Versions END ---
-2017-04-23 09:37:34.921+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_VERSIONS START ---
-2017-04-23 09:37:34.921+0000 INFO  [o.n.k.i.DiagnosticsManager] Store versions:
-2017-04-23 09:37:34.921+0000 INFO  [o.n.k.i.DiagnosticsManager] Store versions:
-2017-04-23 09:37:34.921+0000 INFO  [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore v0.A.7
-2017-04-23 09:37:34.922+0000 INFO  [o.n.k.i.DiagnosticsManager]   NodeStore v0.A.7
-2017-04-23 09:37:34.922+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.7
-2017-04-23 09:37:34.922+0000 INFO  [o.n.k.i.DiagnosticsManager]   PropertyIndexStore v0.A.7
-2017-04-23 09:37:34.922+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.7
-2017-04-23 09:37:34.922+0000 INFO  [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore v0.A.7
-2017-04-23 09:37:34.922+0000 INFO  [o.n.k.i.DiagnosticsManager]   PropertyStore v0.A.7
-2017-04-23 09:37:34.922+0000 INFO  [o.n.k.i.DiagnosticsManager]   RelationshipStore v0.A.7
-2017-04-23 09:37:34.922+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.7
-2017-04-23 09:37:34.922+0000 INFO  [o.n.k.i.DiagnosticsManager]   RelationshipTypeStore v0.A.7
-2017-04-23 09:37:34.922+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.7
-2017-04-23 09:37:34.922+0000 INFO  [o.n.k.i.DiagnosticsManager]   LabelTokenStore v0.A.7
-2017-04-23 09:37:34.922+0000 INFO  [o.n.k.i.DiagnosticsManager]   SchemaStore v0.A.7
-2017-04-23 09:37:34.922+0000 INFO  [o.n.k.i.DiagnosticsManager]   RelationshipGroupStore v0.A.7
-2017-04-23 09:37:34.923+0000 INFO  [o.n.k.i.DiagnosticsManager]   NeoStore v0.A.7
-2017-04-23 09:37:34.923+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_VERSIONS END ---
-2017-04-23 09:37:34.923+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_ID_USAGE START ---
-2017-04-23 09:37:34.923+0000 INFO  [o.n.k.i.DiagnosticsManager] Id usage:
-2017-04-23 09:37:34.923+0000 INFO  [o.n.k.i.DiagnosticsManager] Id usage:
-2017-04-23 09:37:34.923+0000 INFO  [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore: used=1 high=0
-2017-04-23 09:37:34.923+0000 INFO  [o.n.k.i.DiagnosticsManager]   NodeStore: used=394 high=393
-2017-04-23 09:37:34.923+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore: used=25 high=24
-2017-04-23 09:37:34.923+0000 INFO  [o.n.k.i.DiagnosticsManager]   PropertyIndexStore: used=24 high=23
-2017-04-23 09:37:34.924+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore: used=1 high=0
-2017-04-23 09:37:34.924+0000 INFO  [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore: used=1 high=0
-2017-04-23 09:37:34.924+0000 INFO  [o.n.k.i.DiagnosticsManager]   PropertyStore: used=799 high=798
-2017-04-23 09:37:34.924+0000 INFO  [o.n.k.i.DiagnosticsManager]   RelationshipStore: used=557 high=559
-2017-04-23 09:37:34.925+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore: used=20 high=19
-2017-04-23 09:37:34.925+0000 INFO  [o.n.k.i.DiagnosticsManager]   RelationshipTypeStore: used=19 high=18
-2017-04-23 09:37:34.925+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore: used=17 high=16
-2017-04-23 09:37:34.925+0000 INFO  [o.n.k.i.DiagnosticsManager]   LabelTokenStore: used=16 high=15
-2017-04-23 09:37:34.925+0000 INFO  [o.n.k.i.DiagnosticsManager]   SchemaStore: used=1 high=0
-2017-04-23 09:37:34.925+0000 INFO  [o.n.k.i.DiagnosticsManager]   RelationshipGroupStore: used=1 high=0
-2017-04-23 09:37:34.925+0000 INFO  [o.n.k.i.DiagnosticsManager]   NeoStore: used=15 high=14
-2017-04-23 09:37:34.925+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_ID_USAGE END ---
-2017-04-23 09:37:34.925+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_RECORDS START ---
-2017-04-23 09:37:34.925+0000 INFO  [o.n.k.i.DiagnosticsManager] Neostore records:
-2017-04-23 09:37:34.926+0000 INFO  [o.n.k.i.DiagnosticsManager] TIME (Creation time): 1488359401861
-2017-04-23 09:37:34.926+0000 INFO  [o.n.k.i.DiagnosticsManager] RANDOM_NUMBER (Random number for store id): 7895785724685812387
-2017-04-23 09:37:34.927+0000 INFO  [o.n.k.i.DiagnosticsManager] LOG_VERSION (Current log version): 0
-2017-04-23 09:37:34.927+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_TRANSACTION_ID (Last committed transaction): 197
-2017-04-23 09:37:34.927+0000 INFO  [o.n.k.i.DiagnosticsManager] STORE_VERSION (Store format version): 15531981201765894
-2017-04-23 09:37:34.927+0000 INFO  [o.n.k.i.DiagnosticsManager] FIRST_GRAPH_PROPERTY (First property record containing graph properties): -1
-2017-04-23 09:37:34.927+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_CONSTRAINT_TRANSACTION (Last committed transaction containing constraint changes): 0
-2017-04-23 09:37:34.927+0000 INFO  [o.n.k.i.DiagnosticsManager] UPGRADE_TRANSACTION_ID (Transaction id most recent upgrade was performed at): 1
-2017-04-23 09:37:34.927+0000 INFO  [o.n.k.i.DiagnosticsManager] UPGRADE_TIME (Time of last upgrade): 1488359401861
-2017-04-23 09:37:34.927+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_TRANSACTION_CHECKSUM (Checksum of last committed transaction): -160016163300
-2017-04-23 09:37:34.927+0000 INFO  [o.n.k.i.DiagnosticsManager] UPGRADE_TRANSACTION_CHECKSUM (Checksum of transaction id the most recent upgrade was performed at): 0
-2017-04-23 09:37:34.927+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_CLOSED_TRANSACTION_LOG_VERSION (Log version where the last transaction commit entry has been written into): 0
-2017-04-23 09:37:34.927+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_CLOSED_TRANSACTION_LOG_BYTE_OFFSET (Byte offset in the log file where the last transaction commit entry has been written into): 375278
-2017-04-23 09:37:34.927+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_TRANSACTION_COMMIT_TIMESTAMP (Commit time timestamp for last committed transaction): 1492883502221
-2017-04-23 09:37:34.927+0000 INFO  [o.n.k.i.DiagnosticsManager] UPGRADE_TRANSACTION_COMMIT_TIMESTAMP (Commit timestamp of transaction the most recent upgrade was performed at): 0
-2017-04-23 09:37:34.927+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_RECORDS END ---
-2017-04-23 09:37:34.928+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for TRANSACTION_RANGE START ---
-2017-04-23 09:37:34.928+0000 INFO  [o.n.k.i.DiagnosticsManager] Transaction log:
-2017-04-23 09:37:34.929+0000 INFO  [o.n.k.i.DiagnosticsManager] Oldest transaction 2 found in log with version 0
-2017-04-23 09:37:34.929+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for TRANSACTION_RANGE END ---
-2017-04-23 09:37:34.930+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:StoreFiles START ---
-2017-04-23 09:37:34.930+0000 INFO  [o.n.k.i.DiagnosticsManager] Disk space on partition (Total / Free / Free %): 479244222464 / 217574412288 / 45
+2017-04-23 11:36:50.354+0000 WARN  [o.n.i.p.PageCache] The dbms.memory.pagecache.size setting has not been configured. It is recommended that this setting is always explicitly configured, to ensure the system has a balanced configuration. Until then, a computed heuristic value of 3340500992 bytes will be used instead. 
+2017-04-23 11:36:50.480+0000 INFO  [o.n.k.i.f.CommunityEditionModule] No locking implementation specified, defaulting to 'community'
+2017-04-23 11:36:50.621+0000 INFO  [o.n.k.AvailabilityGuard] Requirement makes database unavailable: Database available
+2017-04-23 11:36:50.852+0000 INFO  [o.n.k.i.DiagnosticsManager] --- INITIALIZED diagnostics START ---
+2017-04-23 11:36:50.852+0000 INFO  [o.n.k.i.DiagnosticsManager] Neo4j Kernel properties:
+2017-04-23 11:36:50.852+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.connector.http.enabled=true
+2017-04-23 11:36:50.853+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.security.auth_enabled=true
+2017-04-23 11:36:50.853+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.logs.http.enabled=false
+2017-04-23 11:36:50.853+0000 INFO  [o.n.k.i.DiagnosticsManager] unsupported.dbms.directories.neo4j_home=/Users/AndrewIrwin/Documents/Graph-Theory/default.graphdb
+2017-04-23 11:36:50.853+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.directories.import=import
+2017-04-23 11:36:50.853+0000 INFO  [o.n.k.i.DiagnosticsManager] unsupported.dbms.edition=community
+2017-04-23 11:36:50.853+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.connector.bolt.enabled=true
+2017-04-23 11:36:50.854+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.connector.https.enabled=true
+2017-04-23 11:36:50.854+0000 INFO  [o.n.k.i.DiagnosticsManager] unsupported.dbms.directories.database=/Users/AndrewIrwin/Documents/Graph-Theory/default.graphdb
+2017-04-23 11:36:50.854+0000 INFO  [o.n.k.i.DiagnosticsManager] Diagnostics providers:
+2017-04-23 11:36:50.854+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.kernel.configuration.Config
+2017-04-23 11:36:50.854+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.kernel.info.DiagnosticsManager
+2017-04-23 11:36:50.855+0000 INFO  [o.n.k.i.DiagnosticsManager] SYSTEM_MEMORY
+2017-04-23 11:36:50.855+0000 INFO  [o.n.k.i.DiagnosticsManager] JAVA_MEMORY
+2017-04-23 11:36:50.855+0000 INFO  [o.n.k.i.DiagnosticsManager] OPERATING_SYSTEM
+2017-04-23 11:36:50.855+0000 INFO  [o.n.k.i.DiagnosticsManager] JAVA_VIRTUAL_MACHINE
+2017-04-23 11:36:50.855+0000 INFO  [o.n.k.i.DiagnosticsManager] CLASSPATH
+2017-04-23 11:36:50.855+0000 INFO  [o.n.k.i.DiagnosticsManager] LIBRARY_PATH
+2017-04-23 11:36:50.855+0000 INFO  [o.n.k.i.DiagnosticsManager] SYSTEM_PROPERTIES
+2017-04-23 11:36:50.856+0000 INFO  [o.n.k.i.DiagnosticsManager] NETWORK
+2017-04-23 11:36:50.856+0000 INFO  [o.n.k.i.DiagnosticsManager] System memory information:
+2017-04-23 11:36:50.858+0000 INFO  [o.n.k.i.DiagnosticsManager] Total Physical memory: 8.00 GB
+2017-04-23 11:36:50.858+0000 INFO  [o.n.k.i.DiagnosticsManager] Free Physical memory: 2.36 GB
+2017-04-23 11:36:50.859+0000 INFO  [o.n.k.i.DiagnosticsManager] Committed virtual memory: 7.50 GB
+2017-04-23 11:36:50.859+0000 INFO  [o.n.k.i.DiagnosticsManager] Total swap space: 0.00 B
+2017-04-23 11:36:50.860+0000 INFO  [o.n.k.i.DiagnosticsManager] Free swap space: 0.00 B
+2017-04-23 11:36:50.860+0000 INFO  [o.n.k.i.DiagnosticsManager] JVM memory information:
+2017-04-23 11:36:50.860+0000 INFO  [o.n.k.i.DiagnosticsManager] Free  memory: 105.94 MB
+2017-04-23 11:36:50.860+0000 INFO  [o.n.k.i.DiagnosticsManager] Total memory: 139.00 MB
+2017-04-23 11:36:50.861+0000 INFO  [o.n.k.i.DiagnosticsManager] Max   memory: 1.78 GB
+2017-04-23 11:36:50.863+0000 INFO  [o.n.k.i.DiagnosticsManager] Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+2017-04-23 11:36:50.863+0000 INFO  [o.n.k.i.DiagnosticsManager] Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen]
+2017-04-23 11:36:50.865+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: Code Cache (Non-heap memory): committed=5.13 MB, used=5.10 MB, max=240.00 MB, threshold=0.00 B
+2017-04-23 11:36:50.865+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: Metaspace (Non-heap memory): committed=21.25 MB, used=20.37 MB, max=-1.00 B, threshold=0.00 B
+2017-04-23 11:36:50.865+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: Compressed Class Space (Non-heap memory): committed=3.00 MB, used=2.76 MB, max=1.00 GB, threshold=0.00 B
+2017-04-23 11:36:50.866+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: PS Eden Space (Heap memory): committed=32.50 MB, used=718.89 kB, max=672.50 MB, threshold=?
+2017-04-23 11:36:50.866+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: PS Survivor Space (Heap memory): committed=5.00 MB, used=0.00 B, max=5.00 MB, threshold=?
+2017-04-23 11:36:50.866+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: PS Old Gen (Heap memory): committed=101.50 MB, used=32.36 MB, max=1.33 GB, threshold=0.00 B
+2017-04-23 11:36:50.867+0000 INFO  [o.n.k.i.DiagnosticsManager] Operating system information:
+2017-04-23 11:36:50.868+0000 INFO  [o.n.k.i.DiagnosticsManager] Operating System: Mac OS X; version: 10.11.6; arch: x86_64; cpus: 4
+2017-04-23 11:36:50.868+0000 INFO  [o.n.k.i.DiagnosticsManager] Max number of file descriptors: 10240
+2017-04-23 11:36:50.869+0000 INFO  [o.n.k.i.DiagnosticsManager] Number of open file descriptors: 52
+2017-04-23 11:36:50.872+0000 INFO  [o.n.k.i.DiagnosticsManager] Process id: 1180@Andrews-MacBook-Air.local
+2017-04-23 11:36:50.872+0000 INFO  [o.n.k.i.DiagnosticsManager] Byte order: LITTLE_ENDIAN
+2017-04-23 11:36:50.872+0000 INFO  [o.n.k.i.DiagnosticsManager] Local timezone: Europe/Dublin
+2017-04-23 11:36:50.873+0000 INFO  [o.n.k.i.DiagnosticsManager] JVM information:
+2017-04-23 11:36:50.873+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Name: Java HotSpot(TM) 64-Bit Server VM
+2017-04-23 11:36:50.873+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Vendor: Oracle Corporation
+2017-04-23 11:36:50.873+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Version: 25.60-b23
+2017-04-23 11:36:50.873+0000 INFO  [o.n.k.i.DiagnosticsManager] JIT compiler: HotSpot 64-Bit Tiered Compilers
+2017-04-23 11:36:50.874+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Arguments: [-Dfile.encoding=UTF-8, -Dinstall4j.launcherId=24, -Dinstall4j.swt=false, -Dexe4j.moduleName=/Applications/Neo4j Community Edition 3.1.1.app, -Di4j.ownBundlePath=/Applications/Neo4j Community Edition 3.1.1.app, -Di4j.jreBundle=/Applications/Neo4j Community Edition 3.1.1.app/Contents/Resources/jre.bundle]
+2017-04-23 11:36:50.874+0000 INFO  [o.n.k.i.DiagnosticsManager] Java classpath:
+2017-04-23 11:36:50.876+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 3.1.1.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/jsse.jar
+2017-04-23 11:36:50.876+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/System/Library/Java/Extensions/mlibwrapper_jai.jar
+2017-04-23 11:36:50.876+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 3.1.1.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/resources.jar
+2017-04-23 11:36:50.876+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 3.1.1.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/jfr.jar
+2017-04-23 11:36:50.877+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Applications/Neo4j%20Community%20Edition%203.1.1.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/ext/dnsns.jar
+2017-04-23 11:36:50.877+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/System/Library/Java/Extensions/libJ3DUtils.jnilib
+2017-04-23 11:36:50.877+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/System/Library/Java/Extensions/j3daudio.jar
+2017-04-23 11:36:50.877+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/System/Library/Java/Extensions/AppleScriptEngine.jar
+2017-04-23 11:36:50.877+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/System/Library/Java/Extensions/j3dutils.jar
+2017-04-23 11:36:50.877+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/System/Library/Java/Extensions/jai_codec.jar
+2017-04-23 11:36:50.877+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 3.1.1.app/Contents/Resources/jre.bundle/Contents/Home/jre/classes
+2017-04-23 11:36:50.877+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath] /Applications/Neo4j Community Edition 3.1.1.app/Contents/Resources/app/.install4j/i4jruntime.jar
+2017-04-23 11:36:50.877+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.0] file:/Applications/Neo4j%20Community%20Edition%203.1.1.app/Contents/Resources/app/.install4j/i4jruntime.jar
+2017-04-23 11:36:50.877+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/System/Library/Java/Extensions/vecmath.jar
+2017-04-23 11:36:50.877+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Applications/Neo4j%20Community%20Edition%203.1.1.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/ext/localedata.jar
+2017-04-23 11:36:50.877+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Applications/Neo4j%20Community%20Edition%203.1.1.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/ext/nashorn.jar
+2017-04-23 11:36:50.877+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath] /Applications/Neo4j Community Edition 3.1.1.app/Contents/Resources/app/bin/neo4j-desktop-3.1.1.jar
+2017-04-23 11:36:50.877+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/System/Library/Java/Extensions/libJ3D.jnilib
+2017-04-23 11:36:50.877+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/lib/java/libjdns_sd.jnilib
+2017-04-23 11:36:50.877+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Applications/Neo4j%20Community%20Edition%203.1.1.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/ext/sunjce_provider.jar
+2017-04-23 11:36:50.877+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/System/Library/Java/Extensions/libmlib_jai.jnilib
+2017-04-23 11:36:50.877+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 3.1.1.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/sunrsasign.jar
+2017-04-23 11:36:50.878+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Applications/Neo4j%20Community%20Edition%203.1.1.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/ext/zipfs.jar
+2017-04-23 11:36:50.878+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Applications/Neo4j%20Community%20Edition%203.1.1.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/ext/jfxrt.jar
+2017-04-23 11:36:50.878+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 3.1.1.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/jce.jar
+2017-04-23 11:36:50.878+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 3.1.1.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/charsets.jar
+2017-04-23 11:36:50.878+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.0] file:/Applications/Neo4j%20Community%20Edition%203.1.1.app/Contents/Resources/app/bin/neo4j-desktop-3.1.1.jar
+2017-04-23 11:36:50.878+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/System/Library/Java/Extensions/libJ3DAudio.jnilib
+2017-04-23 11:36:50.878+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Applications/Neo4j%20Community%20Edition%203.1.1.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/ext/sunpkcs11.jar
+2017-04-23 11:36:50.878+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/System/Library/Java/Extensions/libAppleScriptEngine.jnilib
+2017-04-23 11:36:50.878+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Applications/Neo4j%20Community%20Edition%203.1.1.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/ext/sunec.jar
+2017-04-23 11:36:50.878+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Applications/Neo4j%20Community%20Edition%203.1.1.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/ext/cldrdata.jar
+2017-04-23 11:36:50.878+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Applications/Neo4j%20Community%20Edition%203.1.1.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/ext/jaccess.jar
+2017-04-23 11:36:50.878+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/System/Library/Java/Extensions/dns_sd.jar
+2017-04-23 11:36:50.878+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/System/Library/Java/Extensions/j3dcore.jar
+2017-04-23 11:36:50.878+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/System/Library/Java/Extensions/MRJToolkit.jar
+2017-04-23 11:36:50.878+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 3.1.1.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/rt.jar
+2017-04-23 11:36:50.878+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/System/Library/Java/Extensions/jai_core.jar
+2017-04-23 11:36:50.878+0000 INFO  [o.n.k.i.DiagnosticsManager] Library path:
+2017-04-23 11:36:50.879+0000 INFO  [o.n.k.i.DiagnosticsManager] /Users/AndrewIrwin/Library/Java/Extensions
+2017-04-23 11:36:50.879+0000 INFO  [o.n.k.i.DiagnosticsManager] /Library/Java/Extensions
+2017-04-23 11:36:50.879+0000 INFO  [o.n.k.i.DiagnosticsManager] /Network/Library/Java/Extensions
+2017-04-23 11:36:50.879+0000 INFO  [o.n.k.i.DiagnosticsManager] /System/Library/Java/Extensions
+2017-04-23 11:36:50.879+0000 INFO  [o.n.k.i.DiagnosticsManager] /usr/lib/java
+2017-04-23 11:36:50.879+0000 INFO  [o.n.k.i.DiagnosticsManager] /Applications/Neo4j Community Edition 3.1.1.app/Contents/Resources/app/bin
+2017-04-23 11:36:50.879+0000 INFO  [o.n.k.i.DiagnosticsManager] System.properties:
+2017-04-23 11:36:50.879+0000 INFO  [o.n.k.i.DiagnosticsManager] exe4j.moduleName = /Applications/Neo4j Community Edition 3.1.1.app
+2017-04-23 11:36:50.879+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.boot.library.path = /Applications/Neo4j Community Edition 3.1.1.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib
+2017-04-23 11:36:50.879+0000 INFO  [o.n.k.i.DiagnosticsManager] user.country.format = IE
+2017-04-23 11:36:50.879+0000 INFO  [o.n.k.i.DiagnosticsManager] i4j.jreBundle = /Applications/Neo4j Community Edition 3.1.1.app/Contents/Resources/jre.bundle
+2017-04-23 11:36:50.880+0000 INFO  [o.n.k.i.DiagnosticsManager] gopherProxySet = false
+2017-04-23 11:36:50.880+0000 INFO  [o.n.k.i.DiagnosticsManager] path.separator = :
+2017-04-23 11:36:50.880+0000 INFO  [o.n.k.i.DiagnosticsManager] file.encoding.pkg = sun.io
+2017-04-23 11:36:50.880+0000 INFO  [o.n.k.i.DiagnosticsManager] user.country = US
+2017-04-23 11:36:50.880+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.java.launcher = SUN_STANDARD
+2017-04-23 11:36:50.880+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.os.patch.level = unknown
+2017-04-23 11:36:50.880+0000 INFO  [o.n.k.i.DiagnosticsManager] install4j.exeDir = /Applications/
+2017-04-23 11:36:50.880+0000 INFO  [o.n.k.i.DiagnosticsManager] user.dir = /Applications/Neo4j Community Edition 3.1.1.app/Contents/Resources/app/bin
+2017-04-23 11:36:50.880+0000 INFO  [o.n.k.i.DiagnosticsManager] i4j.ownBundlePath = /Applications/Neo4j Community Edition 3.1.1.app
+2017-04-23 11:36:50.880+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.jnu.encoding = UTF-8
+2017-04-23 11:36:50.880+0000 INFO  [o.n.k.i.DiagnosticsManager] unsupported.dbms.udc.source = desktop
+2017-04-23 11:36:50.880+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.awt.enableExtraMouseButtons = true
+2017-04-23 11:36:50.880+0000 INFO  [o.n.k.i.DiagnosticsManager] install4j.launcherId = 24
+2017-04-23 11:36:50.880+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+2017-04-23 11:36:50.880+0000 INFO  [o.n.k.i.DiagnosticsManager] install4j.swt = false
+2017-04-23 11:36:50.880+0000 INFO  [o.n.k.i.DiagnosticsManager] apple.awt.fileDialogForDirectories = false
+2017-04-23 11:36:50.880+0000 INFO  [o.n.k.i.DiagnosticsManager] user.home = /Users/AndrewIrwin
+2017-04-23 11:36:50.880+0000 INFO  [o.n.k.i.DiagnosticsManager] user.timezone = Europe/Dublin
+2017-04-23 11:36:50.881+0000 INFO  [o.n.k.i.DiagnosticsManager] file.encoding = UTF-8
+2017-04-23 11:36:50.881+0000 INFO  [o.n.k.i.DiagnosticsManager] user.name = AndrewIrwin
+2017-04-23 11:36:50.881+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.java.command = com.install4j.runtime.launcher.MacLauncher
+2017-04-23 11:36:50.881+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.arch.data.model = 64
+2017-04-23 11:36:50.881+0000 INFO  [o.n.k.i.DiagnosticsManager] user.language = en
+2017-04-23 11:36:50.881+0000 INFO  [o.n.k.i.DiagnosticsManager] awt.toolkit = sun.lwawt.macosx.LWCToolkit
+2017-04-23 11:36:50.881+0000 INFO  [o.n.k.i.DiagnosticsManager] install4j.appDir = /Applications/Neo4j Community Edition 3.1.1.app/Contents/Resources/app/
+2017-04-23 11:36:50.881+0000 INFO  [o.n.k.i.DiagnosticsManager] file.separator = /
+2017-04-23 11:36:50.881+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.font.fontmanager = sun.font.CFontManager
+2017-04-23 11:36:50.881+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.io.unicode.encoding = UnicodeBig
+2017-04-23 11:36:50.881+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.cpu.endian = little
+2017-04-23 11:36:50.881+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.cpu.isalist = 
+2017-04-23 11:36:50.881+0000 INFO  [o.n.k.i.DiagnosticsManager] Network information:
+2017-04-23 11:36:50.894+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface utun0:
+2017-04-23 11:36:50.894+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fd49:e3f9:af52:c22c:a85c:79a3:aaa9:fe1d
+2017-04-23 11:36:50.894+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:a85c:79a3:aaa9:fe1d%utun0
+2017-04-23 11:36:50.894+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface awdl0:
+2017-04-23 11:36:50.894+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:421:2cff:feb6:6cd7%awdl0
+2017-04-23 11:36:50.895+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface en0:
+2017-04-23 11:36:50.895+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:7ed1:c3ff:fee3:38d%en0
+2017-04-23 11:36:50.895+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 192.168.1.102
+2017-04-23 11:36:50.895+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface lo0:
+2017-04-23 11:36:50.895+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:0:0:0:1%lo0
+2017-04-23 11:36:50.895+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 0:0:0:0:0:0:0:1
+2017-04-23 11:36:50.895+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 127.0.0.1
+2017-04-23 11:36:50.895+0000 INFO  [o.n.k.i.DiagnosticsManager] --- INITIALIZED diagnostics END ---
+2017-04-23 11:36:51.235+0000 INFO  [o.n.b.v.r.WorkerFactory] Bolt Server extension loaded.
+2017-04-23 11:36:51.236+0000 INFO  [o.n.b.v.r.WorkerFactory] Bolt enabled on localhost:7687.
+2017-04-23 11:36:51.388+0000 INFO  [o.n.k.i.s.f.RecordFormatSelector] Selected RecordFormat:StandardV3_0[v0.A.7] record format from store /Users/AndrewIrwin/Documents/Graph-Theory/default.graphdb
+2017-04-23 11:36:51.418+0000 INFO  [o.n.k.i.s.f.RecordFormatSelector] Selected RecordFormat:StandardV3_0[v0.A.7] record format from store /Users/AndrewIrwin/Documents/Graph-Theory/default.graphdb
+2017-04-23 11:36:51.418+0000 INFO  [o.n.k.i.s.f.RecordFormatSelector] Format not configured. Selected format from the store: RecordFormat:StandardV3_0[v0.A.7]
+2017-04-23 11:36:52.054+0000 INFO  [o.n.k.i.DatabaseHealth] Database health set to OK
+2017-04-23 11:36:52.804+0000 INFO  [o.n.k.AvailabilityGuard] Fulfilling of requirement makes database available: Database available
+2017-04-23 11:36:52.805+0000 INFO  [o.n.k.i.f.GraphDatabaseFacadeFactory] Database is now ready
+2017-04-23 11:36:52.806+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:Versions START ---
+2017-04-23 11:36:52.807+0000 INFO  [o.n.k.i.DiagnosticsManager] Graph Database: community single StoreId{creationTime=1488359401861, randomId=7895785724685812387, storeVersion=15531981201765894, upgradeTime=1488359401861, upgradeId=1}
+2017-04-23 11:36:52.807+0000 INFO  [o.n.k.i.DiagnosticsManager] Kernel version: 3.1.1
+2017-04-23 11:36:52.807+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:Versions END ---
+2017-04-23 11:36:52.809+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_VERSIONS START ---
+2017-04-23 11:36:52.809+0000 INFO  [o.n.k.i.DiagnosticsManager] Store versions:
+2017-04-23 11:36:52.809+0000 INFO  [o.n.k.i.DiagnosticsManager] Store versions:
+2017-04-23 11:36:52.810+0000 INFO  [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore v0.A.7
+2017-04-23 11:36:52.810+0000 INFO  [o.n.k.i.DiagnosticsManager]   NodeStore v0.A.7
+2017-04-23 11:36:52.810+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.7
+2017-04-23 11:36:52.810+0000 INFO  [o.n.k.i.DiagnosticsManager]   PropertyIndexStore v0.A.7
+2017-04-23 11:36:52.810+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.7
+2017-04-23 11:36:52.810+0000 INFO  [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore v0.A.7
+2017-04-23 11:36:52.810+0000 INFO  [o.n.k.i.DiagnosticsManager]   PropertyStore v0.A.7
+2017-04-23 11:36:52.810+0000 INFO  [o.n.k.i.DiagnosticsManager]   RelationshipStore v0.A.7
+2017-04-23 11:36:52.810+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.7
+2017-04-23 11:36:52.810+0000 INFO  [o.n.k.i.DiagnosticsManager]   RelationshipTypeStore v0.A.7
+2017-04-23 11:36:52.810+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.7
+2017-04-23 11:36:52.811+0000 INFO  [o.n.k.i.DiagnosticsManager]   LabelTokenStore v0.A.7
+2017-04-23 11:36:52.811+0000 INFO  [o.n.k.i.DiagnosticsManager]   SchemaStore v0.A.7
+2017-04-23 11:36:52.811+0000 INFO  [o.n.k.i.DiagnosticsManager]   RelationshipGroupStore v0.A.7
+2017-04-23 11:36:52.811+0000 INFO  [o.n.k.i.DiagnosticsManager]   NeoStore v0.A.7
+2017-04-23 11:36:52.811+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_VERSIONS END ---
+2017-04-23 11:36:52.811+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_ID_USAGE START ---
+2017-04-23 11:36:52.811+0000 INFO  [o.n.k.i.DiagnosticsManager] Id usage:
+2017-04-23 11:36:52.811+0000 INFO  [o.n.k.i.DiagnosticsManager] Id usage:
+2017-04-23 11:36:52.812+0000 INFO  [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore: used=1 high=0
+2017-04-23 11:36:52.812+0000 INFO  [o.n.k.i.DiagnosticsManager]   NodeStore: used=394 high=393
+2017-04-23 11:36:52.812+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore: used=25 high=24
+2017-04-23 11:36:52.812+0000 INFO  [o.n.k.i.DiagnosticsManager]   PropertyIndexStore: used=24 high=23
+2017-04-23 11:36:52.812+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2017-04-23 11:36:52.812+0000 INFO  [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore: used=1 high=0
+2017-04-23 11:36:52.813+0000 INFO  [o.n.k.i.DiagnosticsManager]   PropertyStore: used=799 high=798
+2017-04-23 11:36:52.813+0000 INFO  [o.n.k.i.DiagnosticsManager]   RelationshipStore: used=557 high=559
+2017-04-23 11:36:52.813+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore: used=20 high=19
+2017-04-23 11:36:52.813+0000 INFO  [o.n.k.i.DiagnosticsManager]   RelationshipTypeStore: used=19 high=18
+2017-04-23 11:36:52.813+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore: used=17 high=16
+2017-04-23 11:36:52.813+0000 INFO  [o.n.k.i.DiagnosticsManager]   LabelTokenStore: used=16 high=15
+2017-04-23 11:36:52.813+0000 INFO  [o.n.k.i.DiagnosticsManager]   SchemaStore: used=1 high=0
+2017-04-23 11:36:52.814+0000 INFO  [o.n.k.i.DiagnosticsManager]   RelationshipGroupStore: used=1 high=0
+2017-04-23 11:36:52.814+0000 INFO  [o.n.k.i.DiagnosticsManager]   NeoStore: used=15 high=14
+2017-04-23 11:36:52.814+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_ID_USAGE END ---
+2017-04-23 11:36:52.814+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_RECORDS START ---
+2017-04-23 11:36:52.814+0000 INFO  [o.n.k.i.DiagnosticsManager] Neostore records:
+2017-04-23 11:36:52.815+0000 INFO  [o.n.k.i.DiagnosticsManager] TIME (Creation time): 1488359401861
+2017-04-23 11:36:52.815+0000 INFO  [o.n.k.i.DiagnosticsManager] RANDOM_NUMBER (Random number for store id): 7895785724685812387
+2017-04-23 11:36:52.815+0000 INFO  [o.n.k.i.DiagnosticsManager] LOG_VERSION (Current log version): 0
+2017-04-23 11:36:52.815+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_TRANSACTION_ID (Last committed transaction): 197
+2017-04-23 11:36:52.815+0000 INFO  [o.n.k.i.DiagnosticsManager] STORE_VERSION (Store format version): 15531981201765894
+2017-04-23 11:36:52.815+0000 INFO  [o.n.k.i.DiagnosticsManager] FIRST_GRAPH_PROPERTY (First property record containing graph properties): -1
+2017-04-23 11:36:52.815+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_CONSTRAINT_TRANSACTION (Last committed transaction containing constraint changes): 0
+2017-04-23 11:36:52.816+0000 INFO  [o.n.k.i.DiagnosticsManager] UPGRADE_TRANSACTION_ID (Transaction id most recent upgrade was performed at): 1
+2017-04-23 11:36:52.816+0000 INFO  [o.n.k.i.DiagnosticsManager] UPGRADE_TIME (Time of last upgrade): 1488359401861
+2017-04-23 11:36:52.816+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_TRANSACTION_CHECKSUM (Checksum of last committed transaction): -160016163300
+2017-04-23 11:36:52.816+0000 INFO  [o.n.k.i.DiagnosticsManager] UPGRADE_TRANSACTION_CHECKSUM (Checksum of transaction id the most recent upgrade was performed at): 0
+2017-04-23 11:36:52.816+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_CLOSED_TRANSACTION_LOG_VERSION (Log version where the last transaction commit entry has been written into): 0
+2017-04-23 11:36:52.816+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_CLOSED_TRANSACTION_LOG_BYTE_OFFSET (Byte offset in the log file where the last transaction commit entry has been written into): 375278
+2017-04-23 11:36:52.816+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_TRANSACTION_COMMIT_TIMESTAMP (Commit time timestamp for last committed transaction): 1492883502221
+2017-04-23 11:36:52.816+0000 INFO  [o.n.k.i.DiagnosticsManager] UPGRADE_TRANSACTION_COMMIT_TIMESTAMP (Commit timestamp of transaction the most recent upgrade was performed at): 0
+2017-04-23 11:36:52.816+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_RECORDS END ---
+2017-04-23 11:36:52.817+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for TRANSACTION_RANGE START ---
+2017-04-23 11:36:52.818+0000 INFO  [o.n.k.i.DiagnosticsManager] Transaction log:
+2017-04-23 11:36:52.819+0000 INFO  [o.n.k.i.DiagnosticsManager] Oldest transaction 2 found in log with version 0
+2017-04-23 11:36:52.819+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for TRANSACTION_RANGE END ---
+2017-04-23 11:36:52.820+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:StoreFiles START ---
+2017-04-23 11:36:52.820+0000 INFO  [o.n.k.i.DiagnosticsManager] Disk space on partition (Total / Free / Free %): 479244222464 / 217593892864 / 45
 Storage files: (filename : modification date - size)
-2017-04-23 09:37:34.931+0000 INFO  [o.n.k.i.DiagnosticsManager]   certificates:
-2017-04-23 09:37:34.931+0000 INFO  [o.n.k.i.DiagnosticsManager]     neo4j.cert: 2017-03-01T09:10:00+0000 - 985.00 B
-2017-04-23 09:37:34.931+0000 INFO  [o.n.k.i.DiagnosticsManager]     neo4j.key: 2017-03-01T09:10:00+0000 - 1.66 kB
-2017-04-23 09:37:34.932+0000 INFO  [o.n.k.i.DiagnosticsManager]   - Total: 2017-03-01T09:10:00+0000 - 2.63 kB
-2017-04-23 09:37:34.932+0000 INFO  [o.n.k.i.DiagnosticsManager]   data:
-2017-04-23 09:37:34.932+0000 INFO  [o.n.k.i.DiagnosticsManager]     dbms:
-2017-04-23 09:37:34.932+0000 INFO  [o.n.k.i.DiagnosticsManager]       auth: 2017-03-01T09:11:20+0000 - 113.00 B
-2017-04-23 09:37:34.932+0000 INFO  [o.n.k.i.DiagnosticsManager]     - Total: 2017-03-01T09:11:20+0000 - 113.00 B
-2017-04-23 09:37:34.933+0000 INFO  [o.n.k.i.DiagnosticsManager]   - Total: 2017-03-01T09:10:03+0000 - 113.00 B
-2017-04-23 09:37:34.933+0000 INFO  [o.n.k.i.DiagnosticsManager]   index:
-2017-04-23 09:37:34.933+0000 INFO  [o.n.k.i.DiagnosticsManager]   - Total: 2017-03-01T09:10:02+0000 - 0.00 B
-2017-04-23 09:37:34.933+0000 INFO  [o.n.k.i.DiagnosticsManager]   logs:
-2017-04-23 09:37:34.934+0000 INFO  [o.n.k.i.DiagnosticsManager]     debug.log: 2017-04-23T10:37:34+0100 - 1.08 MB
-2017-04-23 09:37:34.934+0000 INFO  [o.n.k.i.DiagnosticsManager]   - Total: 2017-03-01T09:10:00+0000 - 1.08 MB
-2017-04-23 09:37:34.934+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore: 2017-04-22T18:56:32+0100 - 8.00 kB
-2017-04-23 09:37:34.934+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.counts.db.a: 2017-04-22T18:51:25+0100 - 1.91 kB
-2017-04-23 09:37:34.935+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.counts.db.b: 2017-04-22T18:56:32+0100 - 1.91 kB
-2017-04-23 09:37:34.935+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.id: 2017-04-23T10:37:33+0100 - 9.00 B
-2017-04-23 09:37:34.935+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db: 2017-04-22T18:46:15+0100 - 8.00 kB
-2017-04-23 09:37:34.936+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db.id: 2017-04-23T10:37:33+0100 - 9.00 B
-2017-04-23 09:37:34.936+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db.names: 2017-04-22T18:46:15+0100 - 8.00 kB
-2017-04-23 09:37:34.936+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db.names.id: 2017-04-23T10:37:33+0100 - 9.00 B
-2017-04-23 09:37:34.936+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db: 2017-04-22T18:56:32+0100 - 8.00 kB
-2017-04-23 09:37:34.937+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db.id: 2017-04-23T10:37:33+0100 - 9.00 B
-2017-04-23 09:37:34.937+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db.labels: 2017-03-01T09:10:01+0000 - 8.00 kB
-2017-04-23 09:37:34.937+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db.labels.id: 2017-04-23T10:37:33+0100 - 9.00 B
-2017-04-23 09:37:34.938+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db: 2017-04-22T18:46:15+0100 - 39.84 kB
-2017-04-23 09:37:34.938+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.arrays: 2017-04-20T22:44:25+0100 - 48.00 kB
-2017-04-23 09:37:34.938+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.arrays.id: 2017-04-23T10:37:33+0100 - 9.00 B
-2017-04-23 09:37:34.938+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.id: 2017-04-23T10:37:33+0100 - 9.00 B
-2017-04-23 09:37:34.938+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index: 2017-04-22T18:30:50+0100 - 8.00 kB
-2017-04-23 09:37:34.939+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index.id: 2017-04-23T10:37:33+0100 - 9.00 B
-2017-04-23 09:37:34.939+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index.keys: 2017-04-22T12:09:27+0100 - 8.00 kB
-2017-04-23 09:37:34.939+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index.keys.id: 2017-04-23T10:37:33+0100 - 9.00 B
-2017-04-23 09:37:34.939+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.strings: 2017-04-20T22:44:25+0100 - 8.00 kB
-2017-04-23 09:37:34.939+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.strings.id: 2017-04-23T10:37:33+0100 - 9.00 B
-2017-04-23 09:37:34.939+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshipgroupstore.db: 2017-03-01T09:10:01+0000 - 8.00 kB
-2017-04-23 09:37:34.940+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshipgroupstore.db.id: 2017-04-23T10:37:33+0100 - 9.00 B
-2017-04-23 09:37:34.940+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshipstore.db: 2017-04-22T18:56:32+0100 - 23.91 kB
-2017-04-23 09:37:34.940+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshipstore.db.id: 2017-04-23T10:37:33+0100 - 33.00 B
-2017-04-23 09:37:34.942+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db: 2017-04-22T18:30:50+0100 - 8.00 kB
-2017-04-23 09:37:34.943+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db.id: 2017-04-23T10:37:33+0100 - 9.00 B
-2017-04-23 09:37:34.943+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db.names: 2017-04-22T12:59:22+0100 - 8.00 kB
-2017-04-23 09:37:34.943+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db.names.id: 2017-04-23T10:37:33+0100 - 9.00 B
-2017-04-23 09:37:34.943+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.schemastore.db: 2017-03-01T09:10:01+0000 - 8.00 kB
-2017-04-23 09:37:34.944+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.schemastore.db.id: 2017-04-23T10:37:33+0100 - 9.00 B
-2017-04-23 09:37:34.944+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.transaction.db.0: 2017-04-22T21:53:33+0100 - 366.52 kB
-2017-04-23 09:37:34.944+0000 INFO  [o.n.k.i.DiagnosticsManager]   schema:
-2017-04-23 09:37:34.944+0000 INFO  [o.n.k.i.DiagnosticsManager]     label:
-2017-04-23 09:37:34.944+0000 INFO  [o.n.k.i.DiagnosticsManager]       lucene:
-2017-04-23 09:37:34.945+0000 INFO  [o.n.k.i.DiagnosticsManager]         labelStore:
-2017-04-23 09:37:34.945+0000 INFO  [o.n.k.i.DiagnosticsManager]           1:
-2017-04-23 09:37:34.946+0000 INFO  [o.n.k.i.DiagnosticsManager]             _2n.cfe: 2017-04-22T18:46:15+0100 - 305.00 B
-2017-04-23 09:37:34.947+0000 INFO  [o.n.k.i.DiagnosticsManager]             _2n.cfs: 2017-04-22T18:46:15+0100 - 4.86 kB
-2017-04-23 09:37:34.947+0000 INFO  [o.n.k.i.DiagnosticsManager]             _2n.si: 2017-04-22T18:46:15+0100 - 401.00 B
-2017-04-23 09:37:34.947+0000 INFO  [o.n.k.i.DiagnosticsManager]             segments_1a: 2017-04-22T18:46:15+0100 - 138.00 B
-2017-04-23 09:37:34.947+0000 INFO  [o.n.k.i.DiagnosticsManager]             write.lock: 2017-03-01T09:10:02+0000 - 0.00 B
-2017-04-23 09:37:34.947+0000 INFO  [o.n.k.i.DiagnosticsManager]           - Total: 2017-04-22T21:53:33+0100 - 5.68 kB
-2017-04-23 09:37:34.947+0000 INFO  [o.n.k.i.DiagnosticsManager]           failure-message: 2017-03-01T09:10:02+0000 - 16.00 kB
-2017-04-23 09:37:34.951+0000 INFO  [o.n.k.i.DiagnosticsManager]         - Total: 2017-03-01T09:10:02+0000 - 21.68 kB
-2017-04-23 09:37:34.951+0000 INFO  [o.n.k.i.DiagnosticsManager]       - Total: 2017-03-01T09:10:02+0000 - 21.68 kB
-2017-04-23 09:37:34.951+0000 INFO  [o.n.k.i.DiagnosticsManager]     - Total: 2017-03-01T09:10:02+0000 - 21.68 kB
-2017-04-23 09:37:34.951+0000 INFO  [o.n.k.i.DiagnosticsManager]   - Total: 2017-03-01T09:10:02+0000 - 21.68 kB
-2017-04-23 09:37:34.952+0000 INFO  [o.n.k.i.DiagnosticsManager]   store_lock: 2017-03-01T09:10:01+0000 - 0.00 B
-2017-04-23 09:37:34.952+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:StoreFiles END ---
-2017-04-23 09:37:37.479+0000 INFO  [o.n.k.i.DiagnosticsManager] --- SERVER STARTED START ---
-2017-04-23 09:37:38.679+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 295ms.
-2017-04-23 09:37:39.679+0000 INFO  [o.n.k.i.DiagnosticsManager] --- SERVER STARTED END ---
-2017-04-23 09:38:52.087+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
-2017-04-23 09:39:02.187+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
-2017-04-23 09:39:12.287+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
-2017-04-23 09:39:22.387+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
-2017-04-23 09:39:32.487+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
-2017-04-23 09:39:42.587+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
-2017-04-23 09:39:52.687+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
-2017-04-23 09:40:02.787+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
-2017-04-23 09:40:12.888+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
-2017-04-23 09:40:21.082+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 8093ms.
-2017-04-23 09:42:52.025+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
-2017-04-23 09:43:02.126+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
-2017-04-23 09:43:11.441+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 9214ms.
-2017-04-23 09:43:21.028+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 9486ms.
-2017-04-23 09:44:21.032+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 8766ms.
-2017-04-23 09:45:21.466+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
-2017-04-23 09:45:31.567+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
-2017-04-23 09:45:41.667+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
-2017-04-23 09:45:51.767+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
-2017-04-23 09:46:01.867+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
-2017-04-23 09:46:11.967+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
-2017-04-23 09:46:21.091+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 9023ms.
-2017-04-23 09:46:26.840+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [198]:  Starting check pointing...
-2017-04-23 09:46:26.840+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [198]:  Starting store flush...
-2017-04-23 09:46:26.865+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 198 to [/Users/AndrewIrwin/GoogleDrive/Gmit/ThirdYear/GraphTheory/Graph-Theory/default.graphdb/neostore.counts.db.a], from [/Users/AndrewIrwin/GoogleDrive/Gmit/ThirdYear/GraphTheory/Graph-Theory/default.graphdb/neostore.counts.db.b].
-2017-04-23 09:46:26.872+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 198 to [/Users/AndrewIrwin/GoogleDrive/Gmit/ThirdYear/GraphTheory/Graph-Theory/default.graphdb/neostore.counts.db.a], from [/Users/AndrewIrwin/GoogleDrive/Gmit/ThirdYear/GraphTheory/Graph-Theory/default.graphdb/neostore.counts.db.b].
-2017-04-23 09:46:26.877+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [198]:  Store flush completed
-2017-04-23 09:46:26.878+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [198]:  Starting appending check point entry into the tx log...
-2017-04-23 09:46:26.878+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [198]:  Appending check point entry into the tx log completed
-2017-04-23 09:46:26.878+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [198]:  Check pointing completed
-2017-04-23 09:46:26.878+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
-2017-04-23 09:46:26.878+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
-2017-04-23 09:47:51.730+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
-2017-04-23 09:48:00.005+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 8174ms.
-2017-04-23 09:48:51.735+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
-2017-04-23 09:48:53.938+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 2102ms.
-2017-04-23 09:49:04.038+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
-2017-04-23 09:49:14.139+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
-2017-04-23 09:49:24.239+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
-2017-04-23 09:49:34.339+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
-2017-04-23 09:49:44.439+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
-2017-04-23 09:49:54.539+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
-2017-04-23 09:50:04.640+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
-2017-04-23 09:50:14.740+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
-2017-04-23 09:50:24.840+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
-2017-04-23 09:50:34.941+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
-2017-04-23 09:50:45.041+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
-2017-04-23 09:50:55.142+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
-2017-04-23 09:51:00.002+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 4760ms.
-2017-04-23 09:51:33.830+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [199]:  Starting check pointing...
-2017-04-23 09:51:33.830+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [199]:  Starting store flush...
-2017-04-23 09:51:33.831+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 199 to [/Users/AndrewIrwin/GoogleDrive/Gmit/ThirdYear/GraphTheory/Graph-Theory/default.graphdb/neostore.counts.db.b], from [/Users/AndrewIrwin/GoogleDrive/Gmit/ThirdYear/GraphTheory/Graph-Theory/default.graphdb/neostore.counts.db.a].
-2017-04-23 09:51:33.833+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 199 to [/Users/AndrewIrwin/GoogleDrive/Gmit/ThirdYear/GraphTheory/Graph-Theory/default.graphdb/neostore.counts.db.b], from [/Users/AndrewIrwin/GoogleDrive/Gmit/ThirdYear/GraphTheory/Graph-Theory/default.graphdb/neostore.counts.db.a].
-2017-04-23 09:51:33.845+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [199]:  Store flush completed
-2017-04-23 09:51:33.845+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [199]:  Starting appending check point entry into the tx log...
-2017-04-23 09:51:33.845+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [199]:  Appending check point entry into the tx log completed
-2017-04-23 09:51:33.845+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [199]:  Check pointing completed
-2017-04-23 09:51:33.846+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
-2017-04-23 09:51:33.846+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
-2017-04-23 09:51:43.355+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1196ms.
-2017-04-23 09:51:53.555+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
-2017-04-23 09:52:00.003+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 6347ms.
-2017-04-23 09:52:51.588+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
-2017-04-23 09:53:00.004+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 8315ms.
-2017-04-23 09:53:52.430+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
-2017-04-23 09:54:02.530+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
-2017-04-23 09:54:12.631+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
-2017-04-23 09:54:22.731+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
-2017-04-23 09:54:32.831+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
-2017-04-23 09:54:42.931+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
-2017-04-23 09:54:53.031+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
-2017-04-23 09:55:03.131+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
-2017-04-23 09:55:13.231+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
-2017-04-23 09:55:21.083+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 7751ms.
-2017-04-23 09:56:22.370+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
-2017-04-23 09:56:30.028+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 7557ms.
-2017-04-23 09:56:34.065+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 3836ms.
-2017-04-23 09:56:44.165+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
-2017-04-23 09:56:49.819+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 5553ms.
-2017-04-23 09:56:50.454+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 533ms.
-2017-04-23 09:57:00.005+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 8533ms.
+2017-04-23 11:36:52.822+0000 INFO  [o.n.k.i.DiagnosticsManager]   certificates:
+2017-04-23 11:36:52.823+0000 INFO  [o.n.k.i.DiagnosticsManager]     neo4j.cert: 2017-03-01T09:10:00+0000 - 985.00 B
+2017-04-23 11:36:52.823+0000 INFO  [o.n.k.i.DiagnosticsManager]     neo4j.key: 2017-03-01T09:10:00+0000 - 1.66 kB
+2017-04-23 11:36:52.823+0000 INFO  [o.n.k.i.DiagnosticsManager]   - Total: 2017-03-01T09:10:00+0000 - 2.63 kB
+2017-04-23 11:36:52.823+0000 INFO  [o.n.k.i.DiagnosticsManager]   data:
+2017-04-23 11:36:52.824+0000 INFO  [o.n.k.i.DiagnosticsManager]     dbms:
+2017-04-23 11:36:52.824+0000 INFO  [o.n.k.i.DiagnosticsManager]       auth: 2017-03-01T09:11:20+0000 - 113.00 B
+2017-04-23 11:36:52.824+0000 INFO  [o.n.k.i.DiagnosticsManager]     - Total: 2017-03-01T09:11:20+0000 - 113.00 B
+2017-04-23 11:36:52.824+0000 INFO  [o.n.k.i.DiagnosticsManager]   - Total: 2017-03-01T09:10:03+0000 - 113.00 B
+2017-04-23 11:36:52.825+0000 INFO  [o.n.k.i.DiagnosticsManager]   index:
+2017-04-23 11:36:52.825+0000 INFO  [o.n.k.i.DiagnosticsManager]   - Total: 2017-03-01T09:10:02+0000 - 0.00 B
+2017-04-23 11:36:52.825+0000 INFO  [o.n.k.i.DiagnosticsManager]   logs:
+2017-04-23 11:36:52.825+0000 INFO  [o.n.k.i.DiagnosticsManager]     debug.log: 2017-04-23T12:36:52+0100 - 1.08 MB
+2017-04-23 11:36:52.826+0000 INFO  [o.n.k.i.DiagnosticsManager]   - Total: 2017-03-01T09:10:00+0000 - 1.08 MB
+2017-04-23 11:36:52.826+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore: 2017-04-22T18:56:32+0100 - 8.00 kB
+2017-04-23 11:36:52.826+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.counts.db.a: 2017-04-22T18:51:25+0100 - 1.91 kB
+2017-04-23 11:36:52.826+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.counts.db.b: 2017-04-22T18:56:32+0100 - 1.91 kB
+2017-04-23 11:36:52.827+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.id: 2017-04-23T12:36:51+0100 - 9.00 B
+2017-04-23 11:36:52.827+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db: 2017-04-22T18:46:15+0100 - 8.00 kB
+2017-04-23 11:36:52.827+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db.id: 2017-04-23T12:36:51+0100 - 9.00 B
+2017-04-23 11:36:52.828+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db.names: 2017-04-22T18:46:15+0100 - 8.00 kB
+2017-04-23 11:36:52.828+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db.names.id: 2017-04-23T12:36:51+0100 - 9.00 B
+2017-04-23 11:36:52.828+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db: 2017-04-22T18:56:32+0100 - 8.00 kB
+2017-04-23 11:36:52.828+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db.id: 2017-04-23T12:36:51+0100 - 9.00 B
+2017-04-23 11:36:52.829+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db.labels: 2017-03-01T09:10:01+0000 - 8.00 kB
+2017-04-23 11:36:52.829+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db.labels.id: 2017-04-23T12:36:51+0100 - 9.00 B
+2017-04-23 11:36:52.829+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db: 2017-04-22T18:46:15+0100 - 39.84 kB
+2017-04-23 11:36:52.829+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.arrays: 2017-04-20T22:44:25+0100 - 48.00 kB
+2017-04-23 11:36:52.830+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.arrays.id: 2017-04-23T12:36:51+0100 - 9.00 B
+2017-04-23 11:36:52.830+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.id: 2017-04-23T12:36:51+0100 - 9.00 B
+2017-04-23 11:36:52.830+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index: 2017-04-22T18:30:50+0100 - 8.00 kB
+2017-04-23 11:36:52.830+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index.id: 2017-04-23T12:36:51+0100 - 9.00 B
+2017-04-23 11:36:52.831+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index.keys: 2017-04-22T12:09:27+0100 - 8.00 kB
+2017-04-23 11:36:52.831+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index.keys.id: 2017-04-23T12:36:51+0100 - 9.00 B
+2017-04-23 11:36:52.831+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.strings: 2017-04-20T22:44:25+0100 - 8.00 kB
+2017-04-23 11:36:52.831+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.strings.id: 2017-04-23T12:36:51+0100 - 9.00 B
+2017-04-23 11:36:52.832+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshipgroupstore.db: 2017-03-01T09:10:01+0000 - 8.00 kB
+2017-04-23 11:36:52.832+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshipgroupstore.db.id: 2017-04-23T12:36:51+0100 - 9.00 B
+2017-04-23 11:36:52.832+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshipstore.db: 2017-04-22T18:56:32+0100 - 23.91 kB
+2017-04-23 11:36:52.832+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshipstore.db.id: 2017-04-23T12:36:51+0100 - 33.00 B
+2017-04-23 11:36:52.833+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db: 2017-04-22T18:30:50+0100 - 8.00 kB
+2017-04-23 11:36:52.833+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db.id: 2017-04-23T12:36:51+0100 - 9.00 B
+2017-04-23 11:36:52.833+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db.names: 2017-04-22T12:59:22+0100 - 8.00 kB
+2017-04-23 11:36:52.833+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db.names.id: 2017-04-23T12:36:51+0100 - 9.00 B
+2017-04-23 11:36:52.834+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.schemastore.db: 2017-03-01T09:10:01+0000 - 8.00 kB
+2017-04-23 11:36:52.834+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.schemastore.db.id: 2017-04-23T12:36:51+0100 - 9.00 B
+2017-04-23 11:36:52.834+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.transaction.db.0: 2017-04-22T21:53:33+0100 - 366.52 kB
+2017-04-23 11:36:52.834+0000 INFO  [o.n.k.i.DiagnosticsManager]   schema:
+2017-04-23 11:36:52.834+0000 INFO  [o.n.k.i.DiagnosticsManager]     label:
+2017-04-23 11:36:52.835+0000 INFO  [o.n.k.i.DiagnosticsManager]       lucene:
+2017-04-23 11:36:52.835+0000 INFO  [o.n.k.i.DiagnosticsManager]         labelStore:
+2017-04-23 11:36:52.835+0000 INFO  [o.n.k.i.DiagnosticsManager]           1:
+2017-04-23 11:36:52.835+0000 INFO  [o.n.k.i.DiagnosticsManager]             _2n.cfe: 2017-04-22T18:46:15+0100 - 305.00 B
+2017-04-23 11:36:52.836+0000 INFO  [o.n.k.i.DiagnosticsManager]             _2n.cfs: 2017-04-22T18:46:15+0100 - 4.86 kB
+2017-04-23 11:36:52.836+0000 INFO  [o.n.k.i.DiagnosticsManager]             _2n.si: 2017-04-22T18:46:15+0100 - 401.00 B
+2017-04-23 11:36:52.836+0000 INFO  [o.n.k.i.DiagnosticsManager]             segments_1a: 2017-04-22T18:46:15+0100 - 138.00 B
+2017-04-23 11:36:52.836+0000 INFO  [o.n.k.i.DiagnosticsManager]             write.lock: 2017-03-01T09:10:02+0000 - 0.00 B
+2017-04-23 11:36:52.836+0000 INFO  [o.n.k.i.DiagnosticsManager]           - Total: 2017-04-22T21:53:33+0100 - 5.68 kB
+2017-04-23 11:36:52.837+0000 INFO  [o.n.k.i.DiagnosticsManager]           failure-message: 2017-03-01T09:10:02+0000 - 16.00 kB
+2017-04-23 11:36:52.837+0000 INFO  [o.n.k.i.DiagnosticsManager]         - Total: 2017-03-01T09:10:02+0000 - 21.68 kB
+2017-04-23 11:36:52.837+0000 INFO  [o.n.k.i.DiagnosticsManager]       - Total: 2017-03-01T09:10:02+0000 - 21.68 kB
+2017-04-23 11:36:52.837+0000 INFO  [o.n.k.i.DiagnosticsManager]     - Total: 2017-03-01T09:10:02+0000 - 21.68 kB
+2017-04-23 11:36:52.838+0000 INFO  [o.n.k.i.DiagnosticsManager]   - Total: 2017-03-01T09:10:02+0000 - 21.68 kB
+2017-04-23 11:36:52.838+0000 INFO  [o.n.k.i.DiagnosticsManager]   store_lock: 2017-03-01T09:10:01+0000 - 0.00 B
+2017-04-23 11:36:52.838+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:StoreFiles END ---
+2017-04-23 11:36:55.104+0000 INFO  [o.n.k.i.DiagnosticsManager] --- SERVER STARTED START ---
+2017-04-23 11:36:56.467+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 297ms.
+2017-04-23 11:36:57.470+0000 INFO  [o.n.k.i.DiagnosticsManager] --- SERVER STARTED END ---
+2017-04-23 11:37:41.063+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 11:37:51.163+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 11:38:00.006+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 8742ms.
+2017-04-23 11:38:15.652+0000 INFO  [o.n.c.i.ExecutionEngine] Discarded stale query from the query cache: MATCH (n) RETURN n LIMIT 25
+2017-04-23 11:38:15.655+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: MATCH (n) RETURN n LIMIT 25
+2017-04-23 11:38:21.704+0000 INFO  [o.n.c.i.ExecutionEngine] Discarded stale query from the query cache: CALL db.labels() YIELD label
+WITH COLLECT(label) AS labels
+RETURN 'labels' as a, labels as result
+UNION
+CALL db.relationshipTypes() YIELD relationshipType
+WITH COLLECT(relationshipType) AS relationshipTypes
+RETURN 'relationshipTypes'as a, relationshipTypes as result
+UNION
+CALL db.propertyKeys() YIELD propertyKey
+WITH COLLECT(propertyKey) AS propertyKeys
+RETURN 'propertyKeys' as a, propertyKeys as result
+2017-04-23 11:38:21.710+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: CALL db.labels() YIELD label
+WITH COLLECT(label) AS labels
+RETURN 'labels' as a, labels as result
+UNION
+CALL db.relationshipTypes() YIELD relationshipType
+WITH COLLECT(relationshipType) AS relationshipTypes
+RETURN 'relationshipTypes'as a, relationshipTypes as result
+UNION
+CALL db.propertyKeys() YIELD propertyKey
+WITH COLLECT(propertyKey) AS propertyKeys
+RETURN 'propertyKeys' as a, propertyKeys as result
+2017-04-23 11:38:41.645+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 11:38:51.745+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 11:39:01.845+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 11:39:11.945+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 11:39:21.789+0000 INFO  [o.n.c.i.ExecutionEngine] Discarded stale query from the query cache: MATCH (a)-[r]->(b) WHERE id(a) IN {node_ids}
+AND id(b) IN {new_node_ids}
+RETURN r;
+2017-04-23 11:39:21.794+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: MATCH (a)-[r]->(b) WHERE id(a) IN {node_ids}
+AND id(b) IN {new_node_ids}
+RETURN r;
+2017-04-23 11:39:22.054+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10008ms.
+2017-04-23 11:39:32.155+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 11:39:42.255+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 11:39:52.355+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 11:40:00.007+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 7551ms.
+2017-04-23 11:40:40.782+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 11:40:50.882+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 11:40:52.379+0000 INFO  [o.n.c.i.ExecutionEngine] Discarded stale query from the query cache: MATCH (a)-[r]->(b) WHERE id(a) IN {node_ids}
+AND id(b) IN {new_node_ids}
+RETURN r;
+2017-04-23 11:40:52.385+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: MATCH (a)-[r]->(b) WHERE id(a) IN {node_ids}
+AND id(b) IN {new_node_ids}
+RETURN r;
+2017-04-23 11:40:52.420+0000 INFO  [o.n.c.i.ExecutionEngine] Discarded stale query from the query cache: CALL db.labels() YIELD label
+WITH COLLECT(label) AS labels
+RETURN 'labels' as a, labels as result
+UNION
+CALL db.relationshipTypes() YIELD relationshipType
+WITH COLLECT(relationshipType) AS relationshipTypes
+RETURN 'relationshipTypes'as a, relationshipTypes as result
+UNION
+CALL db.propertyKeys() YIELD propertyKey
+WITH COLLECT(propertyKey) AS propertyKeys
+RETURN 'propertyKeys' as a, propertyKeys as result
+2017-04-23 11:40:52.437+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: CALL db.labels() YIELD label
+WITH COLLECT(label) AS labels
+RETURN 'labels' as a, labels as result
+UNION
+CALL db.relationshipTypes() YIELD relationshipType
+WITH COLLECT(relationshipType) AS relationshipTypes
+RETURN 'relationshipTypes'as a, relationshipTypes as result
+UNION
+CALL db.propertyKeys() YIELD propertyKey
+WITH COLLECT(propertyKey) AS propertyKeys
+RETURN 'propertyKeys' as a, propertyKeys as result
+2017-04-23 11:41:00.005+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 9022ms.
+2017-04-23 11:41:41.825+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 11:41:51.926+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 11:41:54.040+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [208]:  Starting check pointing...
+2017-04-23 11:41:54.040+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [208]:  Starting store flush...
+2017-04-23 11:41:54.081+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 208 to [/Users/AndrewIrwin/Documents/Graph-Theory/default.graphdb/neostore.counts.db.a], from [/Users/AndrewIrwin/Documents/Graph-Theory/default.graphdb/neostore.counts.db.b].
+2017-04-23 11:41:54.097+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 208 to [/Users/AndrewIrwin/Documents/Graph-Theory/default.graphdb/neostore.counts.db.a], from [/Users/AndrewIrwin/Documents/Graph-Theory/default.graphdb/neostore.counts.db.b].
+2017-04-23 11:41:54.115+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [208]:  Store flush completed
+2017-04-23 11:41:54.115+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [208]:  Starting appending check point entry into the tx log...
+2017-04-23 11:41:54.116+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [208]:  Appending check point entry into the tx log completed
+2017-04-23 11:41:54.116+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [208]:  Check pointing completed
+2017-04-23 11:41:54.116+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-04-23 11:41:54.116+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-04-23 11:42:00.005+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 7979ms.
+2017-04-23 11:42:31.666+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 271ms.
+2017-04-23 11:43:41.821+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 11:43:51.921+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 11:44:00.004+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 7983ms.
+2017-04-23 11:44:41.491+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 11:44:51.591+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 11:45:00.003+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 8312ms.
+2017-04-23 11:45:41.981+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 11:45:52.081+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 11:46:00.005+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 7823ms.
+2017-04-23 11:46:42.031+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 11:46:52.131+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 11:47:00.005+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 7773ms.
+2017-04-23 11:47:04.028+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [220]:  Starting check pointing...
+2017-04-23 11:47:04.029+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [220]:  Starting store flush...
+2017-04-23 11:47:04.036+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 220 to [/Users/AndrewIrwin/Documents/Graph-Theory/default.graphdb/neostore.counts.db.b], from [/Users/AndrewIrwin/Documents/Graph-Theory/default.graphdb/neostore.counts.db.a].
+2017-04-23 11:47:04.038+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 220 to [/Users/AndrewIrwin/Documents/Graph-Theory/default.graphdb/neostore.counts.db.b], from [/Users/AndrewIrwin/Documents/Graph-Theory/default.graphdb/neostore.counts.db.a].
+2017-04-23 11:47:04.042+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [220]:  Store flush completed
+2017-04-23 11:47:04.042+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [220]:  Starting appending check point entry into the tx log...
+2017-04-23 11:47:04.042+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [220]:  Appending check point entry into the tx log completed
+2017-04-23 11:47:04.042+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [220]:  Check pointing completed
+2017-04-23 11:47:04.042+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-04-23 11:47:04.042+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-04-23 11:47:26.678+0000 INFO  [o.n.c.i.ExecutionEngine] Discarded stale query from the query cache: MATCH (n:Class) RETURN n LIMIT 25
+2017-04-23 11:47:26.680+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: MATCH (n:Class) RETURN n LIMIT 25
+2017-04-23 11:47:41.537+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 11:47:51.637+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 11:48:00.006+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 8269ms.
+2017-04-23 11:48:41.953+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 11:48:52.053+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 11:49:02.153+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 11:49:12.254+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 11:49:22.354+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 11:49:32.454+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 11:49:34.559+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 2004ms.
+2017-04-23 11:49:47.139+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 11:49:51.703+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 4463ms.
+2017-04-23 11:50:00.005+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 8202ms.
+2017-04-23 11:50:14.405+0000 INFO  [o.n.c.i.ExecutionEngine] Discarded stale query from the query cache: EXPLAIN MATCH (n) RETURN n LIMIT 25
+2017-04-23 11:50:14.407+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: MATCH (n) RETURN n LIMIT 25
+2017-04-23 11:50:57.093+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 11:51:00.005+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 2812ms.
+2017-04-23 11:51:57.818+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 11:52:00.005+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 2086ms.
+2017-04-23 11:52:09.019+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [222]:  Starting check pointing...
+2017-04-23 11:52:09.020+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [222]:  Starting store flush...
+2017-04-23 11:52:09.035+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 222 to [/Users/AndrewIrwin/Documents/Graph-Theory/default.graphdb/neostore.counts.db.a], from [/Users/AndrewIrwin/Documents/Graph-Theory/default.graphdb/neostore.counts.db.b].
+2017-04-23 11:52:09.036+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 222 to [/Users/AndrewIrwin/Documents/Graph-Theory/default.graphdb/neostore.counts.db.a], from [/Users/AndrewIrwin/Documents/Graph-Theory/default.graphdb/neostore.counts.db.b].
+2017-04-23 11:52:09.039+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [222]:  Store flush completed
+2017-04-23 11:52:09.039+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [222]:  Starting appending check point entry into the tx log...
+2017-04-23 11:52:09.039+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [222]:  Appending check point entry into the tx log completed
+2017-04-23 11:52:09.039+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [222]:  Check pointing completed
+2017-04-23 11:52:09.039+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-04-23 11:52:09.039+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-04-23 11:52:57.789+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 11:53:07.889+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 11:53:17.989+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 11:53:28.089+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 11:53:38.190+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 11:53:48.290+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 11:53:58.390+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 11:54:00.005+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1514ms.
+2017-04-23 11:54:57.359+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 11:55:00.005+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 2545ms.
+2017-04-23 11:55:57.761+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 11:56:07.861+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 11:56:17.962+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 11:56:28.061+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 11:56:38.162+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 11:56:48.262+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 11:56:58.363+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 11:57:08.463+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 11:57:15.001+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [224]:  Starting check pointing...
+2017-04-23 11:57:15.001+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [224]:  Starting store flush...
+2017-04-23 11:57:15.002+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 224 to [/Users/AndrewIrwin/Documents/Graph-Theory/default.graphdb/neostore.counts.db.b], from [/Users/AndrewIrwin/Documents/Graph-Theory/default.graphdb/neostore.counts.db.a].
+2017-04-23 11:57:15.003+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 224 to [/Users/AndrewIrwin/Documents/Graph-Theory/default.graphdb/neostore.counts.db.b], from [/Users/AndrewIrwin/Documents/Graph-Theory/default.graphdb/neostore.counts.db.a].
+2017-04-23 11:57:15.015+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [224]:  Store flush completed
+2017-04-23 11:57:15.015+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [224]:  Starting appending check point entry into the tx log...
+2017-04-23 11:57:15.016+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [224]:  Appending check point entry into the tx log completed
+2017-04-23 11:57:15.016+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [224]:  Check pointing completed
+2017-04-23 11:57:15.016+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-04-23 11:57:15.016+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-04-23 11:57:18.563+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 11:57:28.663+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 11:57:38.763+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 11:57:46.253+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: MATCH (a)-[r]-(b) 
+DELETE r
+
+2017-04-23 11:57:48.661+0000 INFO  [o.n.c.i.ExecutionEngine] Discarded stale query from the query cache: MATCH (a)-[r]-(b) 
+DELETE r
+2017-04-23 11:57:48.863+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 11:57:58.963+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 11:58:00.006+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 942ms.
+2017-04-23 11:58:57.373+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 11:59:00.004+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 2531ms.
+2017-04-23 11:59:57.284+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:00:00.005+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 2620ms.
+2017-04-23 12:00:57.580+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:01:00.005+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 2325ms.
+2017-04-23 12:01:57.614+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:02:00.003+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 2288ms.
+2017-04-23 12:02:18.989+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [228]:  Starting check pointing...
+2017-04-23 12:02:18.989+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [228]:  Starting store flush...
+2017-04-23 12:02:18.990+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 228 to [/Users/AndrewIrwin/Documents/Graph-Theory/default.graphdb/neostore.counts.db.a], from [/Users/AndrewIrwin/Documents/Graph-Theory/default.graphdb/neostore.counts.db.b].
+2017-04-23 12:02:18.991+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 228 to [/Users/AndrewIrwin/Documents/Graph-Theory/default.graphdb/neostore.counts.db.a], from [/Users/AndrewIrwin/Documents/Graph-Theory/default.graphdb/neostore.counts.db.b].
+2017-04-23 12:02:18.999+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [228]:  Store flush completed
+2017-04-23 12:02:19.000+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [228]:  Starting appending check point entry into the tx log...
+2017-04-23 12:02:19.000+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [228]:  Appending check point entry into the tx log completed
+2017-04-23 12:02:19.000+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [228]:  Check pointing completed
+2017-04-23 12:02:19.000+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-04-23 12:02:19.000+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-04-23 12:02:57.498+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:03:00.005+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 2406ms.
+2017-04-23 12:03:56.966+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:04:07.066+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:04:17.166+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:04:27.267+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:04:37.367+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:04:47.467+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:04:57.567+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:05:00.005+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 2337ms.
+2017-04-23 12:05:57.746+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:06:00.005+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 2158ms.
+2017-04-23 12:06:57.813+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:07:00.005+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 2091ms.
+2017-04-23 12:07:28.983+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [230]:  Starting check pointing...
+2017-04-23 12:07:28.983+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [230]:  Starting store flush...
+2017-04-23 12:07:28.984+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 230 to [/Users/AndrewIrwin/Documents/Graph-Theory/default.graphdb/neostore.counts.db.b], from [/Users/AndrewIrwin/Documents/Graph-Theory/default.graphdb/neostore.counts.db.a].
+2017-04-23 12:07:28.985+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 230 to [/Users/AndrewIrwin/Documents/Graph-Theory/default.graphdb/neostore.counts.db.b], from [/Users/AndrewIrwin/Documents/Graph-Theory/default.graphdb/neostore.counts.db.a].
+2017-04-23 12:07:28.995+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [230]:  Store flush completed
+2017-04-23 12:07:28.996+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [230]:  Starting appending check point entry into the tx log...
+2017-04-23 12:07:28.996+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [230]:  Appending check point entry into the tx log completed
+2017-04-23 12:07:28.996+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [230]:  Check pointing completed
+2017-04-23 12:07:28.996+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-04-23 12:07:28.996+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-04-23 12:07:57.779+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:08:00.003+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 2123ms.
+2017-04-23 12:08:57.110+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:09:07.213+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10003ms.
+2017-04-23 12:09:17.313+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:09:27.414+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:09:37.514+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:09:47.614+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:09:57.714+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:10:00.005+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 2190ms.
+2017-04-23 12:10:48.577+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1864ms.
+2017-04-23 12:10:52.879+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 4202ms.
+2017-04-23 12:10:53.664+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 313ms.
+2017-04-23 12:11:00.005+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 6140ms.
+2017-04-23 12:11:58.061+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:12:00.004+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1836ms.
+2017-04-23 12:12:57.660+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:13:07.761+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:13:17.861+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:13:27.961+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:13:32.579+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 4517ms.
+2017-04-23 12:13:42.679+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:13:52.788+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:14:00.004+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 7116ms.
+2017-04-23 12:14:48.330+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 5470ms.
+2017-04-23 12:14:58.435+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:15:00.004+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1466ms.
+2017-04-23 12:15:52.896+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:16:02.997+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:16:13.097+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:16:23.196+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:16:33.297+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:16:43.397+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:16:53.497+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:17:03.597+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:17:13.701+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:17:18.022+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 4221ms.
+2017-04-23 12:17:28.223+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:17:38.322+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:17:48.422+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:17:58.522+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:18:08.622+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:18:18.723+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:18:28.823+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:18:38.923+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:18:49.023+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:18:59.123+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:19:09.223+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:19:19.323+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:19:29.423+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:19:39.523+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:19:49.628+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:19:59.728+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:20:52.897+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:21:00.005+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 7007ms.
+2017-04-23 12:21:52.897+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:22:00.005+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 7007ms.
+2017-04-23 12:22:41.419+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:22:51.519+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:23:01.619+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:23:11.719+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:23:21.820+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:23:31.920+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:23:42.020+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:23:52.120+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:24:02.220+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:24:12.320+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:24:22.420+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:24:32.521+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:24:42.621+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:24:52.721+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:25:02.821+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:25:12.921+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:25:23.022+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:25:43.122+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 20000ms.
+2017-04-23 12:26:03.221+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 20000ms.
+2017-04-23 12:26:23.321+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 20000ms.
+2017-04-23 12:26:43.421+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 20000ms.
+2017-04-23 12:27:03.521+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 20000ms.
+2017-04-23 12:27:23.227+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 19606ms.
+2017-04-23 12:27:33.327+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:27:43.428+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:27:53.528+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:28:03.628+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:28:13.729+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:28:23.829+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:28:29.981+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 6050ms.
+2017-04-23 12:28:40.181+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:28:50.281+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:29:00.381+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:29:10.481+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:29:20.581+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:29:30.681+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:29:40.781+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:29:50.881+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:30:00.004+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 9023ms.
+2017-04-23 12:30:41.462+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:30:51.562+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:30:54.125+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 2463ms.
+2017-04-23 12:30:54.799+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 258ms.
+2017-04-23 12:30:58.750+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 3220ms.
+2017-04-23 12:30:59.374+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 523ms.
+2017-04-23 12:31:00.004+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 220ms.
+2017-04-23 12:31:40.593+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:31:50.693+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:32:00.005+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 9212ms.
+2017-04-23 12:32:41.602+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:32:51.702+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:33:01.802+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:33:11.902+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:33:22.002+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:33:32.102+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:33:42.202+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:33:52.302+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:34:00.004+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 7602ms.
+2017-04-23 12:34:41.410+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:34:51.510+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:35:00.003+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 8392ms.
+2017-04-23 12:35:41.594+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:35:51.694+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:36:00.005+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 8210ms.
+2017-04-23 12:36:41.637+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:36:51.737+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:37:00.005+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 8167ms.
+2017-04-23 12:37:41.087+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:37:51.187+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:38:00.005+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 8717ms.
+2017-04-23 12:38:41.668+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:38:51.768+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:39:01.868+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:39:11.968+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:39:22.068+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:39:32.168+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:39:42.268+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:39:52.368+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:40:02.468+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:40:12.568+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:40:21.896+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [232]:  Starting check pointing...
+2017-04-23 12:40:21.896+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [232]:  Starting store flush...
+2017-04-23 12:40:21.897+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 232 to [/Users/AndrewIrwin/Documents/Graph-Theory/default.graphdb/neostore.counts.db.a], from [/Users/AndrewIrwin/Documents/Graph-Theory/default.graphdb/neostore.counts.db.b].
+2017-04-23 12:40:21.904+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 232 to [/Users/AndrewIrwin/Documents/Graph-Theory/default.graphdb/neostore.counts.db.a], from [/Users/AndrewIrwin/Documents/Graph-Theory/default.graphdb/neostore.counts.db.b].
+2017-04-23 12:40:21.913+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [232]:  Store flush completed
+2017-04-23 12:40:21.913+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [232]:  Starting appending check point entry into the tx log...
+2017-04-23 12:40:21.913+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [232]:  Appending check point entry into the tx log completed
+2017-04-23 12:40:21.913+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [232]:  Check pointing completed
+2017-04-23 12:40:21.913+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-04-23 12:40:21.914+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-04-23 12:40:22.661+0000 INFO  [o.n.c.i.ExecutionEngine] Discarded stale query from the query cache: MATCH (a)-[r]->(b) WHERE id(a) IN {node_ids}
+AND id(b) IN {new_node_ids}
+RETURN r;
+2017-04-23 12:40:22.664+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: MATCH (a)-[r]->(b) WHERE id(a) IN {node_ids}
+AND id(b) IN {new_node_ids}
+RETURN r;
+2017-04-23 12:40:22.669+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:40:32.769+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:40:42.869+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:40:52.969+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:40:58.985+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 5916ms.
+2017-04-23 12:41:00.003+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 817ms.
+2017-04-23 12:41:40.863+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:41:50.963+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:42:00.005+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 8942ms.
+2017-04-23 12:42:41.781+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:42:51.881+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:43:00.005+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 8023ms.
+2017-04-23 12:43:41.536+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:43:51.636+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:44:01.736+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:44:11.836+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:44:21.937+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:44:32.037+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:44:42.137+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:44:52.237+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:45:02.337+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:45:12.437+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:45:22.537+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:45:31.884+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [234]:  Starting check pointing...
+2017-04-23 12:45:31.884+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [234]:  Starting store flush...
+2017-04-23 12:45:31.884+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 234 to [/Users/AndrewIrwin/Documents/Graph-Theory/default.graphdb/neostore.counts.db.b], from [/Users/AndrewIrwin/Documents/Graph-Theory/default.graphdb/neostore.counts.db.a].
+2017-04-23 12:45:31.887+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 234 to [/Users/AndrewIrwin/Documents/Graph-Theory/default.graphdb/neostore.counts.db.b], from [/Users/AndrewIrwin/Documents/Graph-Theory/default.graphdb/neostore.counts.db.a].
+2017-04-23 12:45:31.891+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [234]:  Store flush completed
+2017-04-23 12:45:31.891+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [234]:  Starting appending check point entry into the tx log...
+2017-04-23 12:45:31.891+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [234]:  Appending check point entry into the tx log completed
+2017-04-23 12:45:31.892+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [234]:  Check pointing completed
+2017-04-23 12:45:31.892+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-04-23 12:45:31.892+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-04-23 12:45:32.637+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:45:42.737+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:45:52.837+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:45:54.107+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1169ms.
+2017-04-23 12:46:04.207+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:46:14.307+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:46:24.407+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:46:34.507+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:46:44.608+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:46:54.707+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:46:58.401+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 3593ms.
+2017-04-23 12:47:00.004+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1402ms.
+2017-04-23 12:47:40.856+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:47:50.956+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:48:00.003+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 8946ms.
+2017-04-23 12:48:41.757+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:48:51.857+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:49:01.957+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:49:12.058+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:49:22.158+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:49:32.258+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:49:42.358+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:49:52.458+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:50:02.558+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:50:12.658+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:50:22.758+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:50:31.353+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 8495ms.
+2017-04-23 12:50:41.454+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:50:51.554+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:51:00.005+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 8351ms.
+2017-04-23 12:51:41.774+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:51:51.874+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:52:00.005+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 8031ms.
+2017-04-23 12:52:40.892+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:52:50.992+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:53:00.005+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 8912ms.
+2017-04-23 12:53:40.881+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:53:50.981+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:54:01.081+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:54:11.181+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:54:21.281+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:54:31.381+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:54:41.481+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:54:51.581+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:55:01.681+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:55:11.782+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:55:21.882+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:55:31.982+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:55:42.082+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:55:52.182+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:56:02.282+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:56:12.382+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:56:22.482+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:56:32.582+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:56:42.685+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10003ms.
+2017-04-23 12:56:44.447+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1661ms.
+2017-04-23 12:56:44.961+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 411ms.
+2017-04-23 12:56:46.064+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 590ms.
+2017-04-23 12:56:47.636+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1058ms.
+2017-04-23 12:56:48.169+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 330ms.
+2017-04-23 12:56:58.886+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:57:00.005+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1018ms.
+2017-04-23 12:57:41.712+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:57:43.260+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1448ms.
+2017-04-23 12:57:53.360+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:58:00.006+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 6545ms.
+2017-04-23 12:58:41.784+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:58:51.884+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:59:01.985+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:59:12.085+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:59:22.185+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:59:32.285+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:59:42.385+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 12:59:52.485+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:00:02.585+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:00:12.685+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:00:22.785+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:00:32.885+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:00:42.985+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:00:53.085+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:01:00.005+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 6819ms.
+2017-04-23 13:01:41.146+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:01:51.246+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:02:00.005+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 8659ms.
+2017-04-23 13:02:41.004+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10001ms.
+2017-04-23 13:02:51.104+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:03:01.204+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:03:11.304+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:03:21.404+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:03:31.504+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:03:41.604+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:03:51.704+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:03:53.884+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 2079ms.
+2017-04-23 13:04:03.984+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:04:14.084+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:04:24.184+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:04:34.284+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:04:44.384+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:04:54.484+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:05:04.584+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:05:14.684+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:05:24.784+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:05:26.812+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1928ms.
+2017-04-23 13:05:37.016+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:05:47.117+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:05:50.341+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 3123ms.
+2017-04-23 13:06:00.441+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:06:10.541+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:06:20.641+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:06:30.741+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:06:40.841+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:06:50.941+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:07:00.005+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 8963ms.
+2017-04-23 13:07:41.722+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:07:51.822+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:08:00.005+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 8083ms.
+2017-04-23 13:08:41.692+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:08:51.792+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:09:01.892+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:09:11.992+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:09:22.092+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:09:32.192+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:09:42.292+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:09:52.392+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:10:00.003+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 7511ms.
+2017-04-23 13:10:41.788+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:10:51.888+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:11:00.002+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 8013ms.
+2017-04-23 13:11:41.693+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:11:51.793+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:12:00.005+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 8112ms.
+2017-04-23 13:12:40.970+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:12:51.070+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:13:00.003+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 8832ms.
+2017-04-23 13:13:51.883+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:14:01.997+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:14:12.097+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:14:14.814+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [237]:  Starting check pointing...
+2017-04-23 13:14:14.814+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [237]:  Starting store flush...
+2017-04-23 13:14:14.815+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 237 to [/Users/AndrewIrwin/Documents/Graph-Theory/default.graphdb/neostore.counts.db.a], from [/Users/AndrewIrwin/Documents/Graph-Theory/default.graphdb/neostore.counts.db.b].
+2017-04-23 13:14:14.818+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 237 to [/Users/AndrewIrwin/Documents/Graph-Theory/default.graphdb/neostore.counts.db.a], from [/Users/AndrewIrwin/Documents/Graph-Theory/default.graphdb/neostore.counts.db.b].
+2017-04-23 13:14:14.832+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [237]:  Store flush completed
+2017-04-23 13:14:14.832+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [237]:  Starting appending check point entry into the tx log...
+2017-04-23 13:14:14.833+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [237]:  Appending check point entry into the tx log completed
+2017-04-23 13:14:14.833+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [237]:  Check pointing completed
+2017-04-23 13:14:14.833+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-04-23 13:14:14.833+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-04-23 13:14:22.197+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:14:32.297+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:14:42.397+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:14:52.497+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:15:00.005+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 7407ms.
+2017-04-23 13:15:52.757+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:16:00.005+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 7148ms.
+2017-04-23 13:19:10.889+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:19:20.989+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:19:31.089+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:19:41.188+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:19:51.288+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:20:00.005+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 8616ms.
+2017-04-23 13:24:11.492+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:24:21.592+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:24:31.692+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:24:36.834+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 5042ms.
+2017-04-23 13:24:41.670+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 4375ms.
+2017-04-23 13:24:51.769+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:25:00.004+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 8134ms.
+2017-04-23 13:25:11.784+0000 INFO  [o.n.c.i.ExecutionEngine] Discarded stale query from the query cache: EXPLAIN MATCH (a:Class {name: "Annie"}) DELETE a
+2017-04-23 13:25:11.785+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: MATCH (a:Class {name: "Annie"}) DELETE a
+2017-04-23 13:25:31.789+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [238]:  Starting check pointing...
+2017-04-23 13:25:31.789+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [238]:  Starting store flush...
+2017-04-23 13:25:31.803+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 238 to [/Users/AndrewIrwin/Documents/Graph-Theory/default.graphdb/neostore.counts.db.b], from [/Users/AndrewIrwin/Documents/Graph-Theory/default.graphdb/neostore.counts.db.a].
+2017-04-23 13:25:31.806+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 238 to [/Users/AndrewIrwin/Documents/Graph-Theory/default.graphdb/neostore.counts.db.b], from [/Users/AndrewIrwin/Documents/Graph-Theory/default.graphdb/neostore.counts.db.a].
+2017-04-23 13:25:31.809+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [238]:  Store flush completed
+2017-04-23 13:25:31.809+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [238]:  Starting appending check point entry into the tx log...
+2017-04-23 13:25:31.809+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [238]:  Appending check point entry into the tx log completed
+2017-04-23 13:25:31.809+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [238]:  Check pointing completed
+2017-04-23 13:25:31.809+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-04-23 13:25:31.809+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-04-23 13:25:41.322+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:25:51.422+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:26:00.006+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 8483ms.
+2017-04-23 13:26:40.688+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:26:50.787+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:27:00.005+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 9117ms.
+2017-04-23 13:27:41.446+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:27:41.822+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 274ms.
+2017-04-23 13:27:52.022+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:28:00.003+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 7881ms.
+2017-04-23 13:28:41.772+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:28:51.872+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:29:01.972+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:29:12.072+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:29:22.172+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:29:32.272+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:29:42.372+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:29:52.472+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:30:02.572+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:30:12.672+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:30:22.772+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:30:32.872+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:30:42.773+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [244]:  Starting check pointing...
+2017-04-23 13:30:42.773+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [244]:  Starting store flush...
+2017-04-23 13:30:42.779+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 244 to [/Users/AndrewIrwin/Documents/Graph-Theory/default.graphdb/neostore.counts.db.a], from [/Users/AndrewIrwin/Documents/Graph-Theory/default.graphdb/neostore.counts.db.b].
+2017-04-23 13:30:42.784+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 244 to [/Users/AndrewIrwin/Documents/Graph-Theory/default.graphdb/neostore.counts.db.a], from [/Users/AndrewIrwin/Documents/Graph-Theory/default.graphdb/neostore.counts.db.b].
+2017-04-23 13:30:42.790+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [244]:  Store flush completed
+2017-04-23 13:30:42.790+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [244]:  Starting appending check point entry into the tx log...
+2017-04-23 13:30:42.791+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [244]:  Appending check point entry into the tx log completed
+2017-04-23 13:30:42.791+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [244]:  Check pointing completed
+2017-04-23 13:30:42.791+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-04-23 13:30:42.791+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-04-23 13:30:42.972+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:30:53.072+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:31:00.004+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 6832ms.
+2017-04-23 13:31:41.785+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:31:51.884+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:32:00.005+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 8020ms.
+2017-04-23 13:32:41.284+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:32:51.384+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:33:00.004+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 8519ms.
+2017-04-23 13:33:41.805+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:33:51.905+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:34:02.005+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:34:12.105+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:34:22.205+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:34:32.305+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:34:42.405+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:34:52.505+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:35:02.605+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:35:12.705+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:35:22.806+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:35:32.906+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:35:43.006+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:35:53.106+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:35:53.761+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [249]:  Starting check pointing...
+2017-04-23 13:35:53.761+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [249]:  Starting store flush...
+2017-04-23 13:35:53.762+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 249 to [/Users/AndrewIrwin/Documents/Graph-Theory/default.graphdb/neostore.counts.db.b], from [/Users/AndrewIrwin/Documents/Graph-Theory/default.graphdb/neostore.counts.db.a].
+2017-04-23 13:35:53.766+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 249 to [/Users/AndrewIrwin/Documents/Graph-Theory/default.graphdb/neostore.counts.db.b], from [/Users/AndrewIrwin/Documents/Graph-Theory/default.graphdb/neostore.counts.db.a].
+2017-04-23 13:35:53.773+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [249]:  Store flush completed
+2017-04-23 13:35:53.773+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [249]:  Starting appending check point entry into the tx log...
+2017-04-23 13:35:53.773+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [249]:  Appending check point entry into the tx log completed
+2017-04-23 13:35:53.774+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [249]:  Check pointing completed
+2017-04-23 13:35:53.774+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-04-23 13:35:53.774+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-04-23 13:36:03.206+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:36:13.306+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:36:16.176+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 2770ms.
+2017-04-23 13:36:26.277+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:36:36.377+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:36:46.477+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:36:56.577+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:37:00.004+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 3327ms.
+2017-04-23 13:37:41.829+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:37:51.930+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:38:00.004+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 7974ms.
+2017-04-23 13:38:40.902+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:38:51.002+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:39:01.102+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:39:11.202+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:39:21.302+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:39:31.402+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:39:41.502+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:39:51.602+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:39:54.228+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 2525ms.
+2017-04-23 13:39:58.014+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 3686ms.
+2017-04-23 13:40:08.114+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:40:18.214+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:40:28.314+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:40:38.414+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:40:48.514+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:40:55.923+0000 INFO  [o.n.c.i.ExecutionEngine] Discarded stale query from the query cache: MATCH (a)-[r]->(b) WHERE id(a) IN {node_ids}
+AND id(b) IN {new_node_ids}
+RETURN r;
+2017-04-23 13:40:55.924+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: MATCH (a)-[r]->(b) WHERE id(a) IN {node_ids}
+AND id(b) IN {new_node_ids}
+RETURN r;
+2017-04-23 13:40:58.613+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:41:00.003+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1289ms.
+2017-04-23 13:41:01.749+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [260]:  Starting check pointing...
+2017-04-23 13:41:01.749+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [260]:  Starting store flush...
+2017-04-23 13:41:01.749+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 260 to [/Users/AndrewIrwin/Documents/Graph-Theory/default.graphdb/neostore.counts.db.a], from [/Users/AndrewIrwin/Documents/Graph-Theory/default.graphdb/neostore.counts.db.b].
+2017-04-23 13:41:01.750+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 260 to [/Users/AndrewIrwin/Documents/Graph-Theory/default.graphdb/neostore.counts.db.a], from [/Users/AndrewIrwin/Documents/Graph-Theory/default.graphdb/neostore.counts.db.b].
+2017-04-23 13:41:01.758+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [260]:  Store flush completed
+2017-04-23 13:41:01.758+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [260]:  Starting appending check point entry into the tx log...
+2017-04-23 13:41:01.758+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [260]:  Appending check point entry into the tx log completed
+2017-04-23 13:41:01.758+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [260]:  Check pointing completed
+2017-04-23 13:41:01.758+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-04-23 13:41:01.758+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-04-23 13:41:41.390+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:41:51.490+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:42:00.004+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 8414ms.
+2017-04-23 13:42:41.909+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:42:52.008+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:43:02.108+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:43:12.208+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:43:22.308+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:43:32.408+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:43:42.508+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:43:52.608+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:44:02.708+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:44:12.808+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:44:22.908+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:44:33.007+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:44:43.107+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:44:53.207+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:45:03.307+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:45:13.407+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:45:23.507+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:45:33.607+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:45:43.707+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:45:53.806+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:46:03.906+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:46:10.735+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [263]:  Starting check pointing...
+2017-04-23 13:46:10.735+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [263]:  Starting store flush...
+2017-04-23 13:46:10.736+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 263 to [/Users/AndrewIrwin/Documents/Graph-Theory/default.graphdb/neostore.counts.db.b], from [/Users/AndrewIrwin/Documents/Graph-Theory/default.graphdb/neostore.counts.db.a].
+2017-04-23 13:46:10.738+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 263 to [/Users/AndrewIrwin/Documents/Graph-Theory/default.graphdb/neostore.counts.db.b], from [/Users/AndrewIrwin/Documents/Graph-Theory/default.graphdb/neostore.counts.db.a].
+2017-04-23 13:46:10.750+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [263]:  Store flush completed
+2017-04-23 13:46:10.751+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [263]:  Starting appending check point entry into the tx log...
+2017-04-23 13:46:10.753+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [263]:  Appending check point entry into the tx log completed
+2017-04-23 13:46:10.753+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [263]:  Check pointing completed
+2017-04-23 13:46:10.753+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-04-23 13:46:10.753+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-04-23 13:46:14.006+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:46:24.106+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:46:34.206+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:46:42.136+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 7829ms.
+2017-04-23 13:46:52.436+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:47:00.004+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 7467ms.
+2017-04-23 13:47:41.877+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:47:51.977+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:48:00.005+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 7927ms.
+2017-04-23 13:48:41.669+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:48:51.768+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:49:01.868+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:49:11.968+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:49:22.068+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:49:32.167+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:49:42.268+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:49:52.368+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:50:02.468+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:50:12.567+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:50:22.667+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:50:32.767+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:50:42.867+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:50:52.967+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:51:00.003+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 6936ms.
+2017-04-23 13:51:13.727+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [272]:  Starting check pointing...
+2017-04-23 13:51:13.727+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [272]:  Starting store flush...
+2017-04-23 13:51:13.728+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 272 to [/Users/AndrewIrwin/Documents/Graph-Theory/default.graphdb/neostore.counts.db.a], from [/Users/AndrewIrwin/Documents/Graph-Theory/default.graphdb/neostore.counts.db.b].
+2017-04-23 13:51:13.729+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 272 to [/Users/AndrewIrwin/Documents/Graph-Theory/default.graphdb/neostore.counts.db.a], from [/Users/AndrewIrwin/Documents/Graph-Theory/default.graphdb/neostore.counts.db.b].
+2017-04-23 13:51:13.734+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [272]:  Store flush completed
+2017-04-23 13:51:13.734+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [272]:  Starting appending check point entry into the tx log...
+2017-04-23 13:51:13.734+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [272]:  Appending check point entry into the tx log completed
+2017-04-23 13:51:13.734+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [272]:  Check pointing completed
+2017-04-23 13:51:13.734+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-04-23 13:51:13.734+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-04-23 13:51:41.704+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:51:51.804+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:52:00.003+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 8099ms.
+2017-04-23 13:52:41.474+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:52:51.574+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:53:01.674+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:53:11.774+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:53:21.874+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:53:31.974+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:53:42.074+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:53:52.173+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:54:02.273+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:54:12.373+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:54:22.473+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:54:32.573+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:54:42.673+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:54:52.773+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:55:02.873+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:55:12.973+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:55:23.073+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:55:33.173+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:55:43.273+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:55:53.373+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:56:03.472+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:56:13.572+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:56:21.710+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [282]:  Starting check pointing...
+2017-04-23 13:56:21.710+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [282]:  Starting store flush...
+2017-04-23 13:56:21.710+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 282 to [/Users/AndrewIrwin/Documents/Graph-Theory/default.graphdb/neostore.counts.db.b], from [/Users/AndrewIrwin/Documents/Graph-Theory/default.graphdb/neostore.counts.db.a].
+2017-04-23 13:56:21.711+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 282 to [/Users/AndrewIrwin/Documents/Graph-Theory/default.graphdb/neostore.counts.db.b], from [/Users/AndrewIrwin/Documents/Graph-Theory/default.graphdb/neostore.counts.db.a].
+2017-04-23 13:56:21.721+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [282]:  Store flush completed
+2017-04-23 13:56:21.721+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [282]:  Starting appending check point entry into the tx log...
+2017-04-23 13:56:21.721+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [282]:  Appending check point entry into the tx log completed
+2017-04-23 13:56:21.721+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [282]:  Check pointing completed
+2017-04-23 13:56:21.721+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-04-23 13:56:21.721+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-04-23 13:56:23.672+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:56:33.772+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:56:43.872+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:56:53.972+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:57:00.003+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 5931ms.
+2017-04-23 13:57:41.828+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:57:51.928+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:58:00.005+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 7977ms.
+2017-04-23 13:58:41.826+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:58:51.925+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:59:02.025+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:59:12.125+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:59:22.225+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:59:32.325+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:59:42.425+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 13:59:52.544+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 14:00:02.644+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 14:00:12.744+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 14:00:22.844+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 14:00:32.944+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 14:00:43.044+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 14:00:52.121+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 8977ms.
+2017-04-23 14:01:00.007+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 7686ms.
+2017-04-23 14:01:22.702+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [286]:  Starting check pointing...
+2017-04-23 14:01:22.703+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [286]:  Starting store flush...
+2017-04-23 14:01:22.703+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 286 to [/Users/AndrewIrwin/Documents/Graph-Theory/default.graphdb/neostore.counts.db.a], from [/Users/AndrewIrwin/Documents/Graph-Theory/default.graphdb/neostore.counts.db.b].
+2017-04-23 14:01:22.705+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 286 to [/Users/AndrewIrwin/Documents/Graph-Theory/default.graphdb/neostore.counts.db.a], from [/Users/AndrewIrwin/Documents/Graph-Theory/default.graphdb/neostore.counts.db.b].
+2017-04-23 14:01:22.711+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [286]:  Store flush completed
+2017-04-23 14:01:22.711+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [286]:  Starting appending check point entry into the tx log...
+2017-04-23 14:01:22.712+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [286]:  Appending check point entry into the tx log completed
+2017-04-23 14:01:22.712+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [286]:  Check pointing completed
+2017-04-23 14:01:22.712+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-04-23 14:01:22.712+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-04-23 14:01:40.928+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 14:01:51.028+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 14:02:00.003+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 8875ms.
+2017-04-23 14:02:41.413+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 14:02:51.513+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 14:03:01.613+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 14:03:11.713+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 14:03:21.813+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 14:03:31.913+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 14:03:42.013+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 14:03:52.113+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 14:04:00.005+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 7792ms.
+2017-04-23 14:04:40.990+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 14:04:51.100+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10010ms.
+2017-04-23 14:05:00.003+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 8803ms.
+2017-04-23 14:05:40.923+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 14:05:51.023+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 10000ms.
+2017-04-23 14:06:00.003+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 8880ms.
+2017-04-23 14:06:23.692+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [293]:  Starting check pointing...
+2017-04-23 14:06:23.692+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [293]:  Starting store flush...
+2017-04-23 14:06:23.692+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 293 to [/Users/AndrewIrwin/Documents/Graph-Theory/default.graphdb/neostore.counts.db.b], from [/Users/AndrewIrwin/Documents/Graph-Theory/default.graphdb/neostore.counts.db.a].
+2017-04-23 14:06:23.693+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 293 to [/Users/AndrewIrwin/Documents/Graph-Theory/default.graphdb/neostore.counts.db.b], from [/Users/AndrewIrwin/Documents/Graph-Theory/default.graphdb/neostore.counts.db.a].
+2017-04-23 14:06:23.699+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [293]:  Store flush completed
+2017-04-23 14:06:23.699+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [293]:  Starting appending check point entry into the tx log...
+2017-04-23 14:06:23.700+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [293]:  Appending check point entry into the tx log completed
+2017-04-23 14:06:23.700+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [293]:  Check pointing completed
+2017-04-23 14:06:23.700+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-04-23 14:06:23.700+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
